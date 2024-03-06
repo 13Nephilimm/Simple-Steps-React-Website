@@ -1,0 +1,11 @@
+.career-section {
+  height: 100vh;
+  position: relative;
+}
+
+@media only screen and (max-width: 1280px) {
+  .career-section {
+    overflow: hidden;
+    margin: 0;
+  }
+}

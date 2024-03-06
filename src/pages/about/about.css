@@ -1,0 +1,334 @@
+.who-we-are-section {
+  padding: 48px 128px;
+}
+
+.who-we-are-container {
+  grid-template-columns: 70fr 30fr;
+}
+
+.who-we-are-container,
+.our-goal-container {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  row-gap: 0;
+  max-height: 600px;
+  z-index: 10;
+}
+
+.our-goal-container {
+  grid-template-columns: 30fr 70fr;
+}
+
+.about-heading-1 {
+  text-align: start;
+  color: #0000fe;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.about-heading-2 {
+  text-align: end;
+  padding-right: 64px;
+  color: #0000fe;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.about-text-1 {
+  text-align: start;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about-text-2 {
+  text-align: end;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 64px;
+  line-height: 1.2;
+}
+
+.about-text-2 span {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 16px;
+  line-height: 1.9;
+}
+
+.team-section {
+  padding: 48px 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-heading {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-top: 64px;
+  gap: 24px;
+}
+
+.team-member {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 280px;
+  height: 280px;
+}
+
+.team-member img {
+  width: 100%;
+}
+
+.team-end-heading {
+  color: #fff;
+  font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.team-end-heading-2 {
+  color: #0000fe;
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.team-contact-btn {
+  padding: 12px 36px;
+  background-color: #0000fe;
+  color: #fff;
+  border-radius: 16px;
+  border: 1px solid #0000fe;
+  text-transform: uppercase;
+}
+
+.team-contact-btn:hover {
+  background-color: transparent;
+}
+
+/************************************************/
+/************** MEDIA QUERIES  ***************/
+/************************************************/
+@media only screen and (max-width: 1528px) {
+  .about-heading-1,
+  .about-heading-2 {
+    font-size: 28px;
+  }
+
+  .about-text-2,
+  .about-text-1 {
+    font-size: 16px;
+  }
+
+  .about-text-2 span {
+    font-size: 20px;
+  }
+
+  .our-goal-img-box img,
+  .who-we-are-img-box img {
+    width: 100%;
+  }
+
+  .team-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .team-member {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .team-member img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1132px) {
+  .about-heading-1,
+  .about-heading-2 {
+    font-size: 20px;
+  }
+
+  .about-text-2,
+  .about-text-1 {
+    font-size: 12px;
+  }
+
+  .about-text-2 span {
+    font-size: 14px;
+  }
+
+  .team-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team-member {
+    max-width: 220px;
+    max-height: 220px;
+  }
+
+  .team-end-heading {
+    font-size: 20px;
+  }
+
+  .team-end-heading-2 {
+    font-size: 20px;
+  }
+
+  .team-contact-btn {
+    padding: 8px 24px;
+    margin-top: 16px;
+  }
+
+  .team-heading {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 972px) {
+  .about-heading-1,
+  .about-heading-2 {
+    font-size: 16px;
+  }
+
+  .about-text-2,
+  .about-text-1,
+  .about-text-2 span {
+    font-size: 10px;
+  }
+
+  .who-we-are-container {
+    grid-template-columns: 60fr 40fr;
+  }
+
+  .our-goal-container {
+    grid-template-columns: 40fr 60fr;
+  }
+
+  .team-member {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .team-end-heading,
+  .team-end-heading-2 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+  }
+
+  .team-member {
+    max-width: 230px;
+    max-height: 230px;
+  }
+
+  .who-we-are-section {
+    padding: 36px 96px;
+  }
+
+  .team-end-heading,
+  .team-end-heading-2 {
+    font-size: 14px;
+  }
+
+  .team-heading {
+    font-size: 20px;
+  }
+
+  .team-section {
+    padding: 36px 96px;
+  }
+}
+
+@media only screen and (max-width: 672px) {
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .team-member {
+    max-width: 180px;
+    max-height: 180px;
+  }
+
+  .who-we-are-section,
+  .team-section {
+    padding: 24px 64px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .team-member {
+    max-width: 170px;
+    max-height: 170px;
+  }
+
+  .who-we-are-section,
+  .team-section {
+    padding: 16px;
+  }
+
+  .about-text-2,
+  .about-heading-2 {
+    padding: 0;
+  }
+
+  .about-heading-1,
+  .about-heading-2 {
+    font-size: 14px;
+  }
+
+  .about-text-2,
+  .about-text-1,
+  .about-text-2 span {
+    font-size: 8px;
+  }
+
+  .team-end-heading,
+  .team-end-heading-2 {
+    font-size: 12px;
+  }
+
+  .team-heading {
+    font-size: 16px;
+  }
+
+  .team-contact-btn {
+    font-size: 12px;
+    padding: 4px 16px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .team-member {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .team-heading {
+    z-index: 99;
+  }
+}

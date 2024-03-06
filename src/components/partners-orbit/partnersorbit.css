@@ -1,0 +1,299 @@
+.partners-center-circle {
+  background-color: #0000fe;
+  height: 120px;
+  width: 120px;
+}
+
+.partners-line-center-vertical,
+.partners-line-center-horizontal {
+  background-color: #0000fe;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 1px;
+  z-index: -1;
+}
+
+.partners-line-center-vertical {
+  width: 1520px;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.partners-line-center-horizontal {
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.partners-line-diagonal-1,
+.partners-line-diagonal-2 {
+  height: 1px;
+  width: 2900px;
+  background-color: #0000fe;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+}
+
+.partners-line-diagonal-1 {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.partners-line-diagonal-2 {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.partners-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: solid 1px #0000fe;
+}
+
+.partners-circle-1 {
+  height: 230px;
+  width: 230px;
+}
+
+.partners-circle-2 {
+  height: 410px;
+  width: 410px;
+}
+
+.partners-circle-3 {
+  height: 600px;
+  width: 600px;
+}
+
+.partners-circle-4 {
+  height: 800px;
+  width: 800px;
+}
+
+.partners-circle-5 {
+  height: 1100px;
+  width: 1100px;
+}
+
+.partners-circle-6 {
+  height: 1390px;
+  width: 1390px;
+}
+
+.partners-circle-7 {
+  height: 1700px;
+  width: 1700px;
+}
+
+.partners-planet {
+  width: 72px;
+  height: 72px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0000fe;
+}
+
+.partners-planet-1 {
+  bottom: 0;
+  left: 0;
+  transform: translate(30%, -30%);
+}
+
+.partners-planet-2 {
+  top: 0;
+  right: 0;
+  transform: translate(-30%, 30%);
+}
+
+.partners-planet-3 {
+  top: -0.35%;
+  left: 21%;
+}
+
+.partners-planet-4 {
+  top: 0;
+  right: 33%;
+  transform: translateY(-40%);
+}
+
+.partners-planet-5 {
+  right: 0;
+  top: 45%;
+  transform: translateX(50%);
+}
+
+.partners-planet-6 {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.partners-planet-7 {
+  left: -3%;
+  top: 34%;
+}
+
+.partners-planet-8 {
+  left: -3%;
+  bottom: 34%;
+}
+
+.partners-planet-9 {
+  right: 2.9%;
+  top: 20%;
+}
+
+.partners-planet-10 {
+  top: 19%;
+  left: 5.5%;
+}
+
+.partners-planet-11 {
+  bottom: 11%;
+  left: 11%;
+}
+
+.partners-planet-12 {
+  bottom: -1%;
+  right: 32%;
+}
+
+.partners-planet-13 {
+  bottom: 20%;
+  right: 4%;
+}
+
+/************************************************/
+/************** MEDIA QUERIES  ***************/
+/************************************************/
+@media only screen and (max-width: 1528px) {
+  .partners-circle-1 {
+    height: 150px;
+    width: 150px;
+  }
+
+  .partners-circle-2 {
+    height: 250px;
+    width: 250px;
+  }
+
+  .partners-circle-3 {
+    height: 400px;
+    width: 400px;
+  }
+
+  .partners-circle-4 {
+    height: 600px;
+    width: 600px;
+  }
+
+  .partners-circle-5 {
+    height: 800px;
+    width: 800px;
+  }
+
+  .partners-circle-6 {
+    height: 1000px;
+    width: 1000px;
+  }
+
+  .partners-circle-7 {
+    height: 1200px;
+    width: 1200px;
+  }
+
+  .partners-planet {
+    width: 45px;
+    height: 45px;
+  }
+
+  .partners-planet img {
+    width: 100%;
+  }
+
+  .partners-center-circle {
+    background-color: #0000fe;
+    height: 80px;
+    width: 80px;
+  }
+
+  .partners-line-diagonal-1,
+  .partners-line-diagonal-2 {
+    width: 135%;
+  }
+}
+
+@media only screen and (max-width: 1132px) {
+  .partners-circle-7 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 938px) {
+  .partners-circle-6 {
+    display: none;
+  }
+
+  .partners-circle-4 {
+    height: 550px;
+    width: 550px;
+  }
+
+  .partners-circle-5 {
+    height: 750px;
+    width: 750px;
+  }
+
+  .partners-line-center-vertical {
+    width: 110%;
+  }
+}
+
+@media only screen and (max-width: 758px) {
+  .partners-circle-5 {
+    display: none;
+  }
+
+  .partners-planet {
+    width: 30px;
+    height: 30px;
+  }
+
+  .partners-circle-3 {
+    height: 350px;
+    width: 350px;
+  }
+
+  .partners-circle-4 {
+    height: 450px;
+    width: 450px;
+  }
+
+  .partners-center-circle {
+    height: 50px;
+    width: 50px;
+  }
+
+  .partners-center-circle img {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .partners-circle-4 {
+    display: none;
+  }
+
+  .partners-line-center-vertical {
+    width: 120%;
+  }
+}
