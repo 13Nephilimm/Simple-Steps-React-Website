@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/ReUsable/header/Navbar";
 import "./blog.css";
-import ComingSoon from "../../components/coming-soon/ComingSoon";
+import ComingSoon from "../../components/ReUsable/coming-soon/ComingSoon";
 
 const Blog = () => {
   return (

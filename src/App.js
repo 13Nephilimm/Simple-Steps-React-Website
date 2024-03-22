@@ -7,7 +7,7 @@ import Blog from "./pages/blog/Blog";
 import Career from "./pages/career/Career";
 import Contact from "./pages/contact/Contact";
 import Portfolio from "./pages/portfolio/Portfolio";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (

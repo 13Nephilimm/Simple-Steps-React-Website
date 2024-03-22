@@ -1,0 +1,14 @@
+/************************************************/
+/************** PARTNERS SECTION  ***************/
+/************************************************/
+.partners-section {
+  height: 1900px;
+  position: relative;
+}
+
+.partners-heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  text-align: center;
+}

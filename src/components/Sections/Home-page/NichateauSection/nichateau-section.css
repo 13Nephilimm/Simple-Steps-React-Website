@@ -1,0 +1,57 @@
+/************************************************/
+/************** NICHATEU SECTION  ***************/
+/************************************************/
+.nichateau-section {
+  padding: 24px 96px;
+  margin-top: 96px;
+}
+
+.nichateau-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  place-items: center;
+}
+
+.nichateau-img-box {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.nichateau-img-box img {
+  width: 100%;
+}
+
+.nichateau-heading {
+  color: #a97549;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 16px;
+}
+
+.nichateau-description {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px;
+}
+
+.nichateau-sub-heading {
+  color: #a97549;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.see-more {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 24px;
+}

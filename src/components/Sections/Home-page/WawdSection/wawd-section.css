@@ -1,0 +1,29 @@
+/************************************************/
+/************** WE DOING SECTION  ***************/
+/************************************************/
+.section-what-are-we-doing {
+  padding: 16px 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.we-doing-heading {
+  color: #0000fe;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin-left: 200px;
+}
+
+.we-doing-description {
+  font-weight: 500;
+  font-size: 16px;
+  align-self: flex-start;
+  margin-left: 200px;
+  margin-bottom: -80px;
+  word-spacing: 0.1px;
+  line-height: 1.2;
+}

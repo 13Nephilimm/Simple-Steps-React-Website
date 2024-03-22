@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
-import ComingSoon from "../../components/coming-soon/ComingSoon";
-import Footer from "../../components/footer/Footer";
-import InfiniteSlider from "../../components/infinite-slider/InfiniteSlider";
+import Navbar from "../../components/ReUsable/header/Navbar";
+import ComingSoon from "../../components/ReUsable/coming-soon/ComingSoon";
+import Footer from "../../components/ReUsable/footer/Footer";
+import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
 import "./services.css";
 
 const Services = () => {

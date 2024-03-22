@@ -1,0 +1,61 @@
+.who-we-are-section {
+  padding: 48px 128px;
+}
+
+.who-we-are-container {
+  grid-template-columns: 70fr 30fr;
+}
+
+.who-we-are-container,
+.our-goal-container {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  row-gap: 0;
+  max-height: 600px;
+  z-index: 10;
+}
+
+.our-goal-container {
+  grid-template-columns: 30fr 70fr;
+}
+
+.about-heading-1 {
+  text-align: start;
+  color: #0000fe;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.about-heading-2 {
+  text-align: end;
+  padding-right: 64px;
+  color: #0000fe;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.about-text-1 {
+  text-align: start;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about-text-2 {
+  text-align: end;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 64px;
+  line-height: 1.2;
+}
+
+.about-text-2 span {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 16px;
+  line-height: 1.9;
+}

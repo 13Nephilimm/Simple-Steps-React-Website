@@ -1,0 +1,16 @@
+/************************************************/
+/************** HERO SECTION  *******************/
+/************************************************/
+.main-heading {
+  color: #0000fe;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1;
+  padding-top: 96px;
+}
+
+.hero-section {
+  height: 1900px;
+}

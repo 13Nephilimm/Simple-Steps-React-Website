@@ -1,0 +1,38 @@
+/************************************************/
+/************** ABOUT SECTION  ******************/
+/************************************************/
+.about-section {
+  padding: 24px 96px 96px 96px;
+  margin-top: 96px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  place-items: center;
+}
+
+.about-img-box {
+  border-radius: 16px;
+}
+
+.about-img-box img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.about-heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  padding: 16px;
+}
+
+.about-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 96px 16px 0;
+}

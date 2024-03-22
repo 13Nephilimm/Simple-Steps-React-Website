@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
-import ComingSoon from "../../components/coming-soon/ComingSoon";
+import Navbar from "../../components/ReUsable/header/Navbar";
+import ComingSoon from "../../components/ReUsable/coming-soon/ComingSoon";
 import "./career.css";
 
 const Career = () => {

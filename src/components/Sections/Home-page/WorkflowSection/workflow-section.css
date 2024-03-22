@@ -1,0 +1,65 @@
+/************************************************/
+/************** WORKFLOW SECTION  ***************/
+/************************************************/
+.section-workflow {
+  padding: 16px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.workflow-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.workflow-description {
+  color: #0000fe;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  padding: 0 96px;
+  line-height: 1.2;
+}
+
+.workflow-container {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+}
+
+.full-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-box {
+  width: 150px;
+  height: 150px;
+  background-color: #0000fe;
+  border-radius: 16px;
+}
+
+.video-heading {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+
+.desc-2 {
+  margin-top: 64px;
+}
+
+.margin-right {
+  margin-right: -24px;
+}
