@@ -1,0 +1,127 @@
+/************************************************/
+/********* TABS SECTION  *********/
+/************************************************/
+.tabs-section {
+  margin-top: 96px;
+  padding: 96px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tabs-description {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 8px 16px 36px 16px;
+  text-align: center;
+}
+
+.tab-header {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-name {
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 16px;
+}
+
+.tab-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tab-header-item {
+  background-color: #0000fe;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-header-item-1::after,
+.tab-header-item-2::after,
+.tab-header-item-3::after {
+  content: "";
+  width: 64px;
+  height: 1px;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+}
+
+.tab-pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+  height: 150px;
+}
+
+.hidden-tab {
+  display: none;
+}
+
+.tabs-image {
+  width: 48px;
+}
+
+.tab-name-active {
+  color: #0000fe;
+}
+
+@media only screen and (max-width: 576px) {
+  .tabs-section {
+    margin: 0;
+  }
+
+  .tabs-heading {
+    font-size: 28px;
+  }
+
+  .tabs-description {
+    font-size: 16px;
+  }
+
+  .tab-header-item {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tabs-image {
+    width: 20px;
+  }
+
+  .tab-text {
+    font-size: 16px;
+    margin-top: 48px;
+  }
+}

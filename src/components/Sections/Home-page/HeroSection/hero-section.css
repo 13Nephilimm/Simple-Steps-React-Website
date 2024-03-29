@@ -14,3 +14,58 @@
 .hero-section {
   height: 1900px;
 }
+
+/************************************************/
+/************** MEDIA QUERIES  ***************/
+/************************************************/
+@media only screen and (max-width: 1528px) {
+  .main-heading {
+    font-size: 36px;
+    line-height: 1;
+    padding-top: 48px;
+  }
+
+  .hero-section {
+    height: 1400px;
+  }
+}
+
+@media only screen and (max-width: 1132px) {
+  .main-heading {
+    font-size: 28px;
+  }
+
+  .hero-section {
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 938px) {
+  .hero-section {
+    margin-top: 36px;
+  }
+}
+
+@media only screen and (max-width: 758px) {
+  .main-heading {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-section {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .main-heading {
+    font-size: 16px;
+    padding: 0;
+    margin-top: 196px;
+  }
+
+  .hero-section {
+    height: 400px;
+  }
+}

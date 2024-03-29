@@ -4,12 +4,12 @@ import "./about-section.css";
 const AboutSection = () => {
   return (
     <section className="section about-section">
-      <h2 className="about-heading">About Company</h2>
       <div className="about-container">
         <div className="about-img-box">
           <img src="./img/team.png" alt="about-img" />
         </div>
         <div className="about-text-box">
+          <h2 className="about-heading">About Company</h2>
           <p className="about-description">
             From February 2021, the company takes care of digitalization of your
             activities The young and creative team of Simple Steps offers modern

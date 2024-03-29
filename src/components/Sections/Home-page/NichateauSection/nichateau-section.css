@@ -22,10 +22,19 @@
   width: 100%;
 }
 
+.our-projects-heading {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: start;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 16px;
+}
+
 .nichateau-heading {
   color: #a97549;
   text-transform: uppercase;
-  text-align: center;
+  text-align: start;
   font-weight: 700;
   font-size: 32px;
   padding: 16px;
@@ -33,7 +42,7 @@
 
 .nichateau-description {
   text-transform: uppercase;
-  text-align: center;
+  text-align: start;
   font-size: 16px;
   font-weight: 700;
   padding: 16px;
@@ -42,7 +51,7 @@
 .nichateau-sub-heading {
   color: #a97549;
   text-transform: uppercase;
-  text-align: center;
+  text-align: start;
   font-weight: 300;
   font-size: 16px;
   padding: 16px;
@@ -54,4 +63,74 @@
   text-align: center;
   text-transform: uppercase;
   padding-top: 24px;
+}
+
+/************************************************/
+/************** MEDIA QUERIES  ***************/
+/************************************************/
+@media only screen and (max-width: 1528px) {
+  .nichateau-description {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1132px) {
+  .nichateau-container {
+    grid-template-columns: 60fr 40fr;
+  }
+
+  .nichateau-heading,
+  .our-projects-heading {
+    font-size: 24px;
+  }
+
+  .nichateau-description {
+    font-size: 12px;
+  }
+
+  .see-more {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 938px) {
+  .nichateau-heading,
+  .our-projects-heading {
+    font-size: 20px;
+  }
+
+  .nichateau-description {
+    font-size: 8px;
+  }
+
+  .see-more {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .nichateau-section {
+    padding: 36px;
+  }
+
+  .nichateau-description {
+    font-size: 8px;
+  }
+
+  .nichateau-heading,
+  .nichateau-sub-heading,
+  .our-projects-heading {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .our-projects-heading {
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .nichateau-description {
+    padding: 0;
+  }
 }

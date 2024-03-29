@@ -651,19 +651,19 @@
   }
 
   .line-center-horizontal {
-    top: 40%;
+    top: 50%;
   }
 
   .center-circle {
-    top: 40%;
+    top: 50%;
   }
 
   .line-diagonal-1 {
-    top: 40%;
+    top: 50%;
   }
 
   .line-diagonal-2 {
-    top: 40%;
+    top: 50%;
   }
 
   .circle-1,
@@ -672,14 +672,14 @@
   .circle-4,
   .circle-5,
   .circle-6 {
-    top: 40% !important;
+    top: 50% !important;
   }
 
   .line-center-vertical {
-    top: 5% !important;
+    top: 50% !important;
     left: 50% !important;
     transform: translateX(50%);
-    height: 125%;
+    height: 50%;
   }
 
   .strategy {
@@ -688,21 +688,27 @@
   }
 
   .social {
-    top: 21%;
+    top: 55%;
     right: 24%;
   }
 
   .content {
-    top: 21%;
+    top: 60%;
   }
 
   .prodaction {
     bottom: 50%;
-    right: 55%;
+    right: 60%;
   }
 
   .web {
     bottom: 55%;
     left: 10%;
+  }
+
+  .line-center-horizontal {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 94%;
   }
 }

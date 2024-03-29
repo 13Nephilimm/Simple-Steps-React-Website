@@ -12,3 +12,37 @@
   font-size: 36px;
   text-align: center;
 }
+
+/************************************************/
+/************** MEDIA QUERIES  ***************/
+/************************************************/
+@media only screen and (max-width: 938px) {
+  .partners-heading {
+    font-size: 28px;
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .partners-section {
+    margin: 0;
+    height: 1200px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .partners-section {
+    height: 700px;
+  }
+
+  .partners-heading {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .partners-heading {
+    font-size: 16px;
+  }
+}

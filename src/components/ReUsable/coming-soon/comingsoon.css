@@ -180,6 +180,13 @@
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .coming-soon span {
+    right: 41%;
+    bottom: -22%;
+  }
+}
+
 @media only screen and (max-width: 390px) {
   .coming-soon span {
     right: 41%;

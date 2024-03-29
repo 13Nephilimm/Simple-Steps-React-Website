@@ -14,7 +14,7 @@ const About = () => {
       <AboutOrbit />
       <WwaSection />
       <TeamSection />
-      <InfiniteSlider />
+      <InfiniteSlider backgroundColor={"transparent"} textColor={"#0000fe"} />
       <Footer />
     </>
   );

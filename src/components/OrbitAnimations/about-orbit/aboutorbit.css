@@ -218,6 +218,10 @@
   .about-circle-5 {
     display: none;
   }
+
+  .about-line-center-vertical {
+    height: 500px;
+  }
 }
 
 @media only screen and (max-width: 390px) {

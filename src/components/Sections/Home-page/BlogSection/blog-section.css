@@ -13,43 +13,111 @@
   text-align: center;
 }
 
-.blog-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  padding-top: 96px;
-}
-
-.single-blog {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.blog-img-box {
-  width: 500px;
-  height: 300px;
-  border-radius: 16px;
-  border: solid 1px #0000fe;
-}
-
-.blog-img-box:hover img {
-  filter: none;
-}
-
-.blog-img-box img {
-  width: 100%;
-  border-radius: 16px;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease-in-out;
-}
-
-.blog-heading-box {
-  padding: 16px;
-}
-
 .blog-heading {
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.swiper-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.swiper {
+  margin-top: 48px;
+  width: 100%;
+}
+
+.swiper-slide {
+  padding: 18px;
+}
+
+.swiper-img {
+  width: 100%;
+  border-radius: 16px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+  border: solid 1px #0000fe;
+}
+
+.swiper-img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.swipe {
+  text-align: end;
+  padding: 0 48px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.invisible {
+  color: transparent;
+}
+
+.swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 90% !important;
+  color: #fff !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 24px !important;
+}
+
+/************************************************/
+/************** MEDIA QUERIES  ***************/
+/************************************************/
+@media only screen and (max-width: 1132px) {
+  .blog-heading {
+    font-size: 12px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 82% !important;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 938px) {
+  .blog-section {
+    padding: 0;
+  }
+
+  .blogs-heading {
+    font-size: 28px;
+    margin-top: 64px;
+  }
+
+  .blog-heading {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 758px) {
+  .blog-heading {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .blog-heading {
+    font-size: 16px;
+  }
 }

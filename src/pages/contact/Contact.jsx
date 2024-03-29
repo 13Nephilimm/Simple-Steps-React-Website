@@ -14,7 +14,7 @@ const Contact = () => {
       <ContactSection />
       <ContactFormSection />
       <IntroduceSection />
-      <InfiniteSlider />
+      <InfiniteSlider backgroundColor={"transparent"} textColor={"#0000fe"} />
       <Footer />
     </>
   );

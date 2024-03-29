@@ -64,7 +64,17 @@
   background-color: transparent;
   border-radius: 16px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+
+.card-arrow {
+  color: #fff;
+  font-size: 1.8rem;
+  position: absolute;
+  bottom: 5%;
+  right: 8%;
 }
 
 .card-description {
@@ -121,6 +131,10 @@
   .card-description {
     font-size: 8px;
   }
+
+  .card-arrow {
+    font-size: 1.4rem;
+  }
 }
 
 @media only screen and (max-width: 758px) {
@@ -137,17 +151,22 @@
   .card-description {
     font-size: 6px;
   }
+
+  .card-arrow {
+    font-size: 1.3rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .we-doing-container {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
   }
 
   .we-doing-card {
-    max-width: 210px;
-    max-height: 230px;
+    max-width: 150px;
+    max-height: 170px;
   }
 
   .we-doing-cards {
@@ -155,15 +174,19 @@
   }
 
   .card-heading {
-    font-size: 16px;
+    font-size: 12px;
     padding: 12px;
   }
 
   .card-description {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .card-2 {
     transform: translateY(0);
+  }
+
+  .card-arrow {
+    font-size: 1.2rem;
   }
 }

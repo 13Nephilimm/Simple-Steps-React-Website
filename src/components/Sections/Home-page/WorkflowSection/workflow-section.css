@@ -63,3 +63,62 @@
 .margin-right {
   margin-right: -24px;
 }
+
+/************************************************/
+/************** MEDIA QUERIES  ***************/
+/************************************************/
+@media only screen and (max-width: 1132px) {
+  .video-box {
+    max-width: 130px;
+    max-height: 130px;
+    background-color: #0000fe00;
+  }
+
+  .video-box video {
+    width: 100%;
+  }
+
+  .workflow-heading {
+    font-size: 28px;
+  }
+
+  .workflow-description {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 938px) {
+  .workflow-heading {
+    font-size: 20px;
+  }
+
+  .workflow-description {
+    font-size: 16px;
+  }
+
+  .video-box {
+    max-width: 110px;
+    max-height: 110px;
+  }
+}
+
+@media only screen and (max-width: 758px) {
+  .workflow-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .section-workflow {
+    margin: 0;
+  }
+
+  .workflow-heading {
+    font-size: 20px;
+  }
+
+  .workflow-description {
+    font-size: 16px;
+    padding: 0;
+  }
+}

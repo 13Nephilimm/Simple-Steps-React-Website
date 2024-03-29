@@ -6,7 +6,8 @@ const NichateauSection = () => {
     <section className="section nichateau-section">
       <div className="nichateau-container">
         <div className="nichateau-text-box">
-          <h2 className="nichateau-heading">Nichateau</h2>
+          <h2 className="our-projects-heading">One of our favorite projects</h2>
+          <h3 className="nichateau-heading">Nichateau</h3>
           <p className="nichateau-description">
             Wine as a part of history, <br /> traditional dishes as a part of
             culture, vineyards as a part of nature, <br /> and cellars as a part

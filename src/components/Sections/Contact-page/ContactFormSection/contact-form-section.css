@@ -52,3 +52,29 @@
 .contact-btn-submit:hover {
   color: #0000fe;
 }
+
+@media only screen and (max-width: 1024px) {
+  .contact-form-section {
+    padding: 16px 36px;
+  }
+
+  .contact-name::placeholder,
+  .contact-mobile::placeholder,
+  .contact-email::placeholder,
+  .contact-company::placeholder,
+  .contact-message::placeholder {
+    font-size: 14px;
+  }
+
+  .contact-btn-submit {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

@@ -3,22 +3,17 @@
 }
 
 .who-we-are-container {
-  grid-template-columns: 70fr 30fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 96px;
+  padding: 128px 0 0 0;
 }
 
 .who-we-are-container,
 .our-goal-container {
   position: relative;
   display: grid;
-  align-items: center;
   justify-content: center;
-  row-gap: 0;
-  max-height: 600px;
   z-index: 10;
-}
-
-.our-goal-container {
-  grid-template-columns: 30fr 70fr;
 }
 
 .about-heading-1 {
@@ -30,8 +25,7 @@
 }
 
 .about-heading-2 {
-  text-align: end;
-  padding-right: 64px;
+  text-align: start;
   color: #0000fe;
   text-transform: uppercase;
   font-weight: 700;
@@ -42,20 +36,108 @@
   text-align: start;
   font-size: 20px;
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .about-text-2 {
-  text-align: end;
+  text-align: start;
   font-size: 20px;
   font-weight: 500;
-  padding-right: 64px;
-  line-height: 1.2;
+  padding: 24px 0;
 }
 
-.about-text-2 span {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 24px;
-  margin-top: 16px;
-  line-height: 1.9;
+/************************************************/
+/************** MEDIA QUERIES  ***************/
+/************************************************/
+@media only screen and (max-width: 1528px) {
+  .about-heading-1,
+  .about-heading-2 {
+    font-size: 28px;
+  }
+
+  .about-text-2,
+  .about-text-1 {
+    font-size: 16px;
+  }
+
+  .about-text-2 span {
+    font-size: 20px;
+  }
+
+  .our-goal-img-box img,
+  .who-we-are-img-box img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1132px) {
+  .about-heading-1,
+  .about-heading-2 {
+    font-size: 20px;
+  }
+
+  .about-text-2,
+  .about-text-1 {
+    font-size: 12px;
+  }
+
+  .about-text-2 span {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 972px) {
+  .about-heading-1,
+  .about-heading-2 {
+    font-size: 16px;
+  }
+
+  .about-text-2,
+  .about-text-1,
+  .about-text-2 span {
+    font-size: 10px;
+  }
+
+  .who-we-are-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .who-we-are-section {
+    padding: 36px 96px;
+  }
+}
+
+@media only screen and (max-width: 672px) {
+  .who-we-are-section {
+    padding: 24px 64px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .who-we-are-section {
+    padding: 16px;
+  }
+
+  .who-we-are-container {
+    gap: 16px;
+  }
+
+  .about-text-2,
+  .about-text-1,
+  .about-heading-2 {
+    padding: 0;
+  }
+
+  .about-heading-1,
+  .about-heading-2 {
+    font-size: 14px;
+  }
+
+  .about-text-2,
+  .about-text-1,
+  .about-text-2 span {
+    font-size: 8px;
+  }
 }

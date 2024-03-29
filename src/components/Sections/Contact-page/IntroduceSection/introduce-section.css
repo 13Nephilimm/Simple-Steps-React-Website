@@ -45,3 +45,64 @@
   border: 1px solid #0000fe;
   background-color: transparent;
 }
+
+@media only screen and (max-width: 1132px) {
+  .contact-heading-1 {
+    font-size: 28px;
+  }
+
+  .introduce-heading {
+    font-size: 24px;
+  }
+
+  .introduce-sub-heading {
+    font-size: 20px;
+  }
+
+  .btn-introduce {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .btn-introduce {
+    padding: 12px 24px;
+    font-size: 11px;
+  }
+
+  .introduce-heading {
+    font-size: 20px;
+  }
+
+  .introduce-sub-heading {
+    font-size: 16px;
+  }
+
+  .contact-heading-1 {
+    font-size: 24px;
+  }
+
+  .introduce-section {
+    padding: 16px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .introduce-categories-container {
+    grid-template-columns: 1fr;
+  }
+
+  .introduce-heading {
+    font-size: 14px;
+  }
+
+  .introduce-sub-heading {
+    font-size: 10px;
+    padding: 16px;
+    line-height: 1.7;
+  }
+
+  .introduce-section {
+    padding: 12px;
+  }
+}

@@ -1,0 +1,25 @@
+/************************************************/
+/********* SERVICE CATEGORIES SECTION  *********/
+/************************************************/
+.services-categories-section {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-categories-section-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 576px) {
+  .services-categories-section-heading {
+    font-size: 24px;
+  }
+}

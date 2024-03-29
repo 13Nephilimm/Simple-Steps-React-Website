@@ -21,6 +21,10 @@
 .portfolio-project {
   width: 350px;
   height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-project img {
@@ -35,7 +39,6 @@
   text-transform: uppercase;
   border-bottom: solid 3px #0000fe;
   align-self: flex-start;
-  margin-left: 196px;
   z-index: 9;
 }
 
@@ -68,4 +71,78 @@
 
 .placeholder {
   margin-top: 150px;
+}
+
+@media only screen and (max-width: 1528px) {
+  .portfolio-headings {
+    margin-left: 96px;
+  }
+
+  .portfolio-project {
+    max-width: 300px;
+    max-height: 200px;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .portfolio-headings {
+    margin-left: 156px;
+    font-size: 20px;
+  }
+
+  .portfolio-project {
+    max-width: 200px;
+    max-height: 150px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .portfolio-headings {
+    margin-left: 96px;
+    font-size: 16px;
+  }
+
+  .portfolio-project {
+    max-width: 180px;
+    max-height: 130px;
+  }
+
+  .portfolio-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .portfolio-social,
+  .portfolio-branding,
+  .portfolio-photography {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+  }
+
+  .portfolio-project {
+    max-width: 200px;
+    max-height: 150px;
+  }
+
+  .portfolio-headings {
+    margin: 0;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 636px) {
+  .portfolio-social,
+  .portfolio-branding,
+  .portfolio-photography {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 24px 0;
+  }
+
+  .portfolio-project {
+    max-width: 170px;
+    max-height: 120px;
+  }
 }

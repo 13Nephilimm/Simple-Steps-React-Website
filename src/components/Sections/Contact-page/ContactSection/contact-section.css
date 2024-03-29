@@ -12,3 +12,18 @@
   text-transform: uppercase;
   font-size: 48px;
 }
+
+@media only screen and (max-width: 1280px) {
+  .contact-section {
+    overflow: hidden;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .contact-heading-1 {
+    bottom: -24%;
+    left: -14%;
+    font-size: 16px;
+  }
+}

@@ -294,6 +294,20 @@
   }
 
   .partners-line-center-vertical {
-    width: 120%;
+    width: 110%;
+  }
+
+  .partners-circle-3 {
+    height: 320px;
+    width: 320px;
+  }
+
+  .partners-line-diagonal-1,
+  .partners-line-diagonal-2 {
+    width: 115%;
+  }
+
+  .partners-line-center-horizontal {
+    width: 90%;
   }
 }

@@ -24,7 +24,6 @@
 
 .slider-text {
   font-size: 36px;
-  color: #0000fe;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -40,6 +39,12 @@
 
   100% {
     transform: translateX(calc(-250px * 9));
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .slider {
+    display: none;
   }
 }
 
