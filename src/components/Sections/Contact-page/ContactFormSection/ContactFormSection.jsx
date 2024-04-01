@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./contact-form-section.css";
 import emailjs from "@emailjs/browser";
 
-const ContactFormSection = () => {
+const ContactFormSection = ({ formId }) => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -28,6 +28,7 @@ const ContactFormSection = () => {
   return (
     <section className="section contact-form-section">
       <form className="contact-form" ref={form} onSubmit={sendEmail}>
+        <input type="hidden" name="formId" value={formId} />
         <input
           className="contact-name"
           type="name"
@@ -47,26 +48,27 @@ const ContactFormSection = () => {
           type="email"
           name="email"
           placeholder="E-Mail"
-          required
         />
         <input
           className="contact-company"
           type="name"
           name="company"
           placeholder="Company Name"
-          required
         />
         <textarea
           name="message"
           rows="7"
           placeholder="Message"
           className="contact-message"
-          required
         ></textarea>
         <button type="submit" className="contact-btn-submit">
           Send
         </button>
       </form>
+      <p className="contact-span">
+        If you are interested in our services, please leave your contact
+        information and we <br /> will definitely contact you
+      </p>
     </section>
   );
 };

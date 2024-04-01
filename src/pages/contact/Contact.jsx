@@ -12,7 +12,7 @@ const Contact = () => {
     <>
       <Navbar />
       <ContactSection />
-      <ContactFormSection />
+      <ContactFormSection formId={"contact page"} />
       <IntroduceSection />
       <InfiniteSlider backgroundColor={"transparent"} textColor={"#0000fe"} />
       <Footer />

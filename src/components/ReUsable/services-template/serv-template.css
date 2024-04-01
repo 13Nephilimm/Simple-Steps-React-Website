@@ -1,0 +1,160 @@
+.serv-hero-section {
+  height: 100vh;
+  padding: 48px;
+}
+
+.serv-hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100%;
+  padding: 16px 256px 128px 48px;
+}
+
+.serv-hero-heading {
+  z-index: 200;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 96px;
+}
+
+.serv-hero-description {
+  z-index: 200;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 96px;
+}
+
+.stats-container {
+  z-index: 200;
+  border-top: solid 2px #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 96px;
+  margin-left: 96px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-heading {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.stat-subheading {
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.benefits-section {
+  margin-top: 96px;
+  padding: 96px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.include-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.include-heading {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.include-description {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.include-description-2 {
+  margin: 24px 0;
+}
+
+.include-span {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.include-btn {
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    #ffffff 0%,
+    rgba(0, 0, 254, 1) 50%,
+    rgba(0, 0, 254, 1) 50%,
+    #fff 100%
+  );
+  background-size: 300%;
+  background-position: left;
+  transition: all 0.3s;
+  padding: 12px 18px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  transition: all 0.3s;
+}
+
+.include-btn:hover {
+  background-position: right;
+}
+
+.benefit-media-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-media-container img {
+  width: 70%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background: radial-gradient(
+        circle at 100% 100%,
+        #000000 0,
+        #000000 8px,
+        transparent 8px
+      )
+      0% 0%/10px 10px no-repeat,
+    radial-gradient(circle at 0 100%, #000000 0, #000000 8px, transparent 8px)
+      100% 0%/10px 10px no-repeat,
+    radial-gradient(circle at 100% 0, #000000 0, #000000 8px, transparent 8px)
+      0% 100%/10px 10px no-repeat,
+    radial-gradient(circle at 0 0, #000000 0, #000000 8px, transparent 8px) 100%
+      100%/10px 10px no-repeat,
+    linear-gradient(#000000, #000000) 50% 50% / calc(100% - 4px)
+      calc(100% - 20px) no-repeat,
+    linear-gradient(#000000, #000000) 50% 50% / calc(100% - 20px)
+      calc(100% - 4px) no-repeat,
+    linear-gradient(135deg, #ffffff 0%, #0000fe 100%);
+  border-radius: 10px;
+}
