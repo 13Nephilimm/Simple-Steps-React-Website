@@ -1,7 +1,7 @@
 import React from "react";
 import "./production.css";
 import ServTemplate from "../../components/ReUsable/services-template/ServTemplate";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import Footer from "../../components/ReUsable/footer/Footer";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
@@ -13,7 +13,7 @@ const Production = () => {
 
   return (
     <div>
-      <Navbar />
+      <Header />
       <ServTemplate
         headingOne={"videography / photography"}
         descOne={`Providing professional photo and video shooting services, we meticulously process visuals to ensure the highest quality. From capturing precious moments to refining them to perfection, we bring your vision to life with expertise and precision.`}
@@ -31,7 +31,7 @@ const Production = () => {
         btns={btnArray}
         imgs={imgArray}
       />
-      <ContactFormSection formId={"branding page"} />
+      <ContactFormSection formId={"production page"} />
       <InfiniteSlider textColor={"#0000fe"} />
       <Footer />
     </div>

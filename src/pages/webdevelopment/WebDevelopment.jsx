@@ -1,7 +1,7 @@
 import React from "react";
 import "./web-development.css";
 import ServTemplate from "../../components/ReUsable/services-template/ServTemplate";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import Footer from "../../components/ReUsable/footer/Footer";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
@@ -20,7 +20,7 @@ const WebDevelopment = () => {
 
   return (
     <div>
-      <Navbar />
+      <Header />
       <ServTemplate
         headingOne={"UI/UX & web-development"}
         descOne={`A website offers customers a convenient way to learn about a company and its offerings without the need for physical visits or phone calls. This accessibility can lead to higher customer engagement and satisfaction.`}
@@ -42,7 +42,7 @@ const WebDevelopment = () => {
         btns={btnArray}
         imgs={imgArray}
       />
-      <ContactFormSection formId={"branding page"} />
+      <ContactFormSection formId={"web development page"} />
       <InfiniteSlider textColor={"#0000fe"} />
       <Footer />
     </div>

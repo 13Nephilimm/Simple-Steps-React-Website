@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import AboutOrbit from "../../components/OrbitAnimations/about-orbit/AboutOrbit";
 import WwaSection from "../../components/Sections/About-page/WwaSection/WwaSection";
 import TeamSection from "../../components/Sections/About-page/TeamSection/TeamSection";
@@ -10,7 +10,7 @@ import Footer from "../../components/ReUsable/footer/Footer";
 const About = () => {
   return (
     <>
-      <Navbar />
+      <Header />
       <AboutOrbit />
       <WwaSection />
       <TeamSection />

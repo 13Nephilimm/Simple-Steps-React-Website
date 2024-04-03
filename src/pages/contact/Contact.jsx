@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import ContactSection from "../../components/Sections/Contact-page/ContactSection/ContactSection";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import IntroduceSection from "../../components/Sections/Contact-page/IntroduceSection/IntroduceSection";
@@ -10,7 +10,7 @@ import Footer from "../../components/ReUsable/footer/Footer";
 const Contact = () => {
   return (
     <>
-      <Navbar />
+      <Header />
       <ContactSection />
       <ContactFormSection formId={"contact page"} />
       <IntroduceSection />

@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import HeroSection from "../../components/Sections/Home-page/HeroSection/HeroSection";
 import WawdSection from "../../components/Sections/Home-page/WawdSection/WawdSection";
 import WorkflowSection from "../../components/Sections/Home-page/WorkflowSection/WorkflowSection";
@@ -14,7 +14,7 @@ import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSl
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <HeroSection />
       <WawdSection />
       <InfiniteSlider backgroundColor={"transparent"} textColor={"#0000fe"} />

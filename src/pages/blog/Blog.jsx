@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import "./blog.css";
 import ComingSoon from "../../components/ReUsable/coming-soon/ComingSoon";
 
 const Blog = () => {
   return (
     <section className="section blog-page-section">
-      <Navbar />
+      <Header />
       <ComingSoon />
       <h1 className="coming-soon">
         Coming S00n <span>)</span>

@@ -1,0 +1,98 @@
+.nav {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 96px;
+  height: 8vh;
+  z-index: 999;
+  transition: all 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.solid {
+  background-color: #000;
+  transition: all 0.5s;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 48px;
+}
+
+.nav-toggler div {
+  width: 24px;
+  height: 1px;
+  margin: 4px;
+  background-color: #fff;
+  transition: 0.4s ease-in;
+}
+
+.nav-toggler {
+  cursor: pointer;
+  display: none;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  text-shadow: -0px 0px 16px rgba(255, 255, 255, 1);
+}
+
+@media only screen and (max-width: 1176px) {
+  .nav-toggler {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background-color: #000;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    justify-content: center;
+    gap: 64px;
+  }
+
+  .nav-brand {
+    width: 36px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .nav {
+    padding: 0 16px;
+  }
+}
+
+/* Nav Active Class */
+.nav-active {
+  transform: translateX(0);
+}
+
+/* Toggler Icon Animation */
+.toggle .line-1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .line-2 {
+  opacity: 0;
+}
+
+.toggle .line-3 {
+  transform: rotate(45deg) translate(-1px, -5px);
+}

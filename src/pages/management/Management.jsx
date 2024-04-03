@@ -1,7 +1,7 @@
 import React from "react";
 import "./management.css";
 import ServTemplate from "../../components/ReUsable/services-template/ServTemplate";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import Footer from "../../components/ReUsable/footer/Footer";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
@@ -17,7 +17,7 @@ const Management = () => {
 
   return (
     <div>
-      <Navbar />
+      <Header />
       <ServTemplate
         headingOne={"Management of social networks"}
         descOne={`We expertly handle your Facebook and Instagram pages, meticulously plan targeted paid advertising campaigns, and closely monitor outcomes for optimal performance. Trust us to elevate your social media presence and drive meaningful engagement with your audience.`}

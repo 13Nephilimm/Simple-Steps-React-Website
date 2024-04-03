@@ -1,7 +1,7 @@
 import React from "react";
 import "./content.css";
 import ServTemplate from "../../components/ReUsable/services-template/ServTemplate";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import Footer from "../../components/ReUsable/footer/Footer";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
@@ -17,7 +17,7 @@ const Content = () => {
 
   return (
     <div>
-      <Navbar />
+      <Header />
       <ServTemplate
         headingOne={"Content creation"}
         descOne={`We specialize in creating compelling copy and modern visual content to present your product in the best possible way. Our goal is to captivate your audience with engaging narratives and eye-catching imagery, ensuring that your product grabs attention and connects with potential customers.`}

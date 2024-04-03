@@ -1,13 +1,13 @@
 import React from "react";
 import "./portfolio.css";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import PortfolioSection from "../../components/Sections/Portfolio-page/PortfolioSection/PortfolioSection";
 import Footer from "../../components/ReUsable/footer/Footer";
 
 const Portfolio = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <PortfolioSection />
       <Footer />
     </div>

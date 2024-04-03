@@ -33,21 +33,21 @@ const ContactFormSection = ({ formId }) => {
           className="contact-name"
           type="name"
           name="name"
-          placeholder="Full Name"
+          placeholder="Full Name*"
           required
         />
         <input
           className="contact-mobile"
           type="number"
           name="mobile"
-          placeholder="Mobile Number"
+          placeholder="Mobile Number*"
           required
         />
         <input
           className="contact-email"
           type="email"
           name="email"
-          placeholder="E-Mail"
+          placeholder="E-Mail*"
         />
         <input
           className="contact-company"

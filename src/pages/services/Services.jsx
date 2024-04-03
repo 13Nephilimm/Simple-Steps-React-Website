@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import ServicesSection from "../../components/Sections/Services-page/ServicesSection/ServicesSection";
 import InfiniteSlidersSection from "../../components/Sections/Services-page/InfiniteSlidersSection/InfiniteSlidersSection";
 import TabsSection from "../../components/Sections/Services-page/TabsSection/TabsSection";
@@ -10,7 +10,7 @@ import "./services.css";
 const Services = () => {
   return (
     <>
-      <Navbar />
+      <Header />
       <ServicesSection />
       <InfiniteSlidersSection />
       <TabsSection />

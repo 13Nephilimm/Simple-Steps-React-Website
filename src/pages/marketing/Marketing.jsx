@@ -1,7 +1,7 @@
 import React from "react";
 import "./marketing.css";
 import ServTemplate from "../../components/ReUsable/services-template/ServTemplate";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import Footer from "../../components/ReUsable/footer/Footer";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
@@ -18,7 +18,7 @@ const Marketing = () => {
 
   return (
     <div>
-      <Navbar />
+      <Header />
       <ServTemplate
         headingOne={"Creating a marketing strategy"}
         descOne={`We create tailored solutions to meet your business needs, ensuring maximum effectiveness and impact. Our approach is customized to address your unique challenges, delivering results that drive your business forward.`}

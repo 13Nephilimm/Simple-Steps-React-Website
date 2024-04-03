@@ -1,7 +1,7 @@
 import React from "react";
 import "./brand-audit.css";
 import ServTemplate from "../../components/ReUsable/services-template/ServTemplate";
-import Navbar from "../../components/ReUsable/header/Navbar";
+import Header from "../../components/ReUsable/header/Header";
 import Footer from "../../components/ReUsable/footer/Footer";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
@@ -16,7 +16,7 @@ const BrandAudit = () => {
 
   return (
     <div>
-      <Navbar />
+      <Header />
       <ServTemplate
         headingOne={"Brand Audit"}
         descOne={`A brand audit is a detailed review of a company's branding strategies, assets, and market presence. It helps you determine the strength of your brand together with its weaknesses or inconsistencies and opportunities for improvement and innovations.`}

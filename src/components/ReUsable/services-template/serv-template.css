@@ -104,10 +104,10 @@
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
-    #ffffff 0%,
+    #ffffffb3 0%,
     rgba(0, 0, 254, 1) 50%,
     rgba(0, 0, 254, 1) 50%,
-    #fff 100%
+    #ffffffb3 100%
   );
   background-size: 300%;
   background-position: left;
