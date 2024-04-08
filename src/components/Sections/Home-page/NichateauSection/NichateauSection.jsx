@@ -14,13 +14,12 @@ const NichateauSection = () => {
             of grape house-we took all the delicious details <br /> and created
             the taste of Georgian culture under the name of <br /> Nichateau
           </p>
-          <h3 className="nichateau-sub-heading">Winery and more</h3>
+          <h3 className="nichateau-sub-heading">See more</h3>
         </div>
         <div className="nichateau-img-box">
           <img src="./img/nichateau-img.png" alt="nichateau-img" />
         </div>
       </div>
-      <p className="see-more">See more</p>
     </section>
   );
 };

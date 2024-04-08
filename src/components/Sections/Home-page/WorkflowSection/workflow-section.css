@@ -122,3 +122,9 @@
     padding: 0;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .workflow-container {
+    gap: 24px;
+  }
+}

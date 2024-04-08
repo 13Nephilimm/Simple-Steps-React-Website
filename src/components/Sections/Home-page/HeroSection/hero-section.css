@@ -13,6 +13,7 @@
 
 .hero-section {
   height: 1900px;
+  overflow-x: hidden;
 }
 
 /************************************************/
@@ -67,5 +68,11 @@
 
   .hero-section {
     height: 400px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .main-heading {
+    margin-top: 128px;
   }
 }

@@ -1,3 +1,7 @@
+.partners-orbit {
+  overflow-x: hidden;
+}
+
 .partners-center-circle {
   background-color: #0000fe;
   height: 120px;

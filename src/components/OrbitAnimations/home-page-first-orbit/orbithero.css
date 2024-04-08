@@ -1,3 +1,7 @@
+.bg-orbit {
+  overflow-x: hidden;
+}
+
 .line-center-vertical,
 .line-center-horizontal,
 .line-diagonal-1,
@@ -745,5 +749,23 @@
   .line-diagonal-1,
   .line-diagonal-2 {
     width: 100%;
+  }
+
+  .strategy {
+    right: 17%;
+  }
+
+  .social {
+    top: 55%;
+    right: 24%;
+  }
+
+  .content {
+    top: 67%;
+  }
+
+  .web {
+    bottom: 62%;
+    left: 8%;
   }
 }
