@@ -1,6 +1,7 @@
 .serv-hero-section {
   height: 100vh;
   padding: 48px;
+  position: relative;
 }
 
 .serv-hero-container {
@@ -157,4 +158,122 @@
       calc(100% - 4px) no-repeat,
     linear-gradient(135deg, #ffffff 0%, #0000fe 100%);
   border-radius: 10px;
+}
+
+/************************************************/
+/********* MEDIA QUERIES  *********/
+/************************************************/
+@media only screen and (max-width: 1280px) {
+  .serv-hero-section {
+    overflow: hidden;
+    margin: 0;
+    height: 80vh;
+  }
+
+  .include-btn {
+    font-size: 12px;
+  }
+
+  .benefits-section {
+    padding: 36px;
+  }
+
+  .benefit-media-container img {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .serv-hero-heading {
+    font-size: 36px;
+  }
+
+  .serv-hero-container {
+    padding: 0;
+  }
+
+  .include-btn {
+    font-size: 10px;
+  }
+
+  .contact-form-section {
+    padding: 16px 64px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .benefits-section {
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+  }
+
+  .benefit-media-container img {
+    width: 70%;
+  }
+
+  .serv-hero-heading,
+  .serv-hero-description {
+    padding: 0;
+  }
+
+  .stats-container {
+    margin-left: 0;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .serv-hero-heading {
+    font-size: 28px;
+  }
+
+  .serv-hero-section {
+    height: 100vh;
+  }
+
+  .serv-hero-description,
+  .include-description {
+    font-size: 16px;
+  }
+
+  .stat-heading {
+    font-size: 24px;
+  }
+
+  .include-heading {
+    font-size: 24px;
+  }
+
+  .include-span {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .stat-subheading {
+    font-size: 10px;
+  }
+
+  .serv-hero-heading {
+    line-height: 1;
+    font-size: 24px;
+  }
+
+  .serv-hero-description,
+  .include-description {
+    font-size: 14px;
+  }
+
+  .stat-heading,
+  .include-heading {
+    font-size: 20px;
+  }
+
+  .include-span {
+    font-size: 16px;
+  }
+
+  .include-btn {
+    font-size: 7px;
+  }
 }
