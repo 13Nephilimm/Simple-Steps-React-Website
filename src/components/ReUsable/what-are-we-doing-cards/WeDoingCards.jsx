@@ -28,7 +28,7 @@ const WeDoingCards = () => {
               Designing your business logo and brand book, and incorporating
               them into printed materials and souvenirs.
             </p>
-            <Link to="#">
+            <Link to={"/branding"}>
               <FaArrowRight className="card-arrow" />
             </Link>
           </div>
@@ -40,7 +40,7 @@ const WeDoingCards = () => {
               Professional management of facebook and instagram pages, planning
               of paid advertising campaigns and monitoring of results.
             </p>
-            <Link to="#">
+            <Link to="/management">
               <FaArrowRight className="card-arrow" />
             </Link>
           </div>
@@ -53,7 +53,7 @@ const WeDoingCards = () => {
               prioritizing your interests and market needs for maximum
               effectiveness.
             </p>
-            <Link to="#">
+            <Link to="/marketing">
               <FaArrowRight className="card-arrow" />
             </Link>
           </div>
@@ -65,19 +65,19 @@ const WeDoingCards = () => {
               Creating creative copy and modern visuals to showcase your product
               at its finest.
             </p>
-            <Link to="#">
+            <Link to="/content">
               <FaArrowRight className="card-arrow" />
             </Link>
           </div>
         </div>
         <div className="we-doing-card card-5">
-          <h2 className="card-heading">Production</h2>
+          <h2 className="card-heading">videography / photography</h2>
           <div className="card-body">
             <p className="card-description">
               High-quality photo and video production services for your product,
               from capture to processing.
             </p>
-            <Link to="#">
+            <Link to="/production">
               <FaArrowRight className="card-arrow" />
             </Link>
           </div>
@@ -89,7 +89,7 @@ const WeDoingCards = () => {
               Creating a website for your business with WordPress and other
               modern technologies.
             </p>
-            <Link to="#">
+            <Link to="/web-development">
               <FaArrowRight className="card-arrow" />
             </Link>
           </div>
@@ -101,7 +101,7 @@ const WeDoingCards = () => {
               Offering a brand audit for different platforms, which involves a
               meticulous review of your campaigns, targeting, creatives
             </p>
-            <Link to="#">
+            <Link to="/brand-audit">
               <FaArrowRight className="card-arrow" />
             </Link>
           </div>

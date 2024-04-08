@@ -311,3 +311,38 @@
     width: 90%;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .partners-circle-1 {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .partners-circle-2 {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .partners-circle-3 {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .partners-circle-4 {
+    width: 240px !important;
+    height: 240px !important;
+  }
+
+  .partners-line-center-horizontal {
+    width: 75% !important;
+  }
+
+  .partners-line-center-vertical {
+    width: 75%;
+  }
+
+  .partners-line-diagonal-1,
+  .partners-line-diagonal-2 {
+    width: 80%;
+  }
+}
