@@ -1,12 +1,15 @@
 import React from "react";
 import "./hero-section.css";
 import OrbitHero from "../../../OrbitAnimations/home-page-first-orbit/OrbitHero";
+import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="section hero-section">
       <h1 className="main-heading">
-        develop the right marketing <br></br> strategy for your business
+        {t("developTheRightMarketing")} <br></br> {t("strategyForYourBusiness")}
       </h1>
       <OrbitHero />
     </section>

@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 48px;
+  gap: 32px;
 }
 
 .nav-toggler div {
@@ -95,4 +95,12 @@
 
 .toggle .line-3 {
   transform: rotate(45deg) translate(-1px, -5px);
+}
+
+.translate-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
 }

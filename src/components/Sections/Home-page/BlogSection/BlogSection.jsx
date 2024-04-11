@@ -6,9 +6,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { useTranslation } from "react-i18next";
 
 const BlogSection = () => {
   const [slidesPerView, setSlidesPerView] = useState(3);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const updateSlidesPerView = () => {
@@ -37,7 +39,7 @@ const BlogSection = () => {
 
   return (
     <section className="section blog-section">
-      <h2 className="blogs-heading">Blogs</h2>
+      <h2 className="blogs-heading">{t("blogsHeading")}</h2>
       <div className="swiper-container">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -54,7 +56,7 @@ const BlogSection = () => {
               alt="blog-thumbnail"
               className="swiper-img"
             />
-            <h2 className="blog-heading">In The Waves Of The Shining Sun</h2>
+            <h2 className="blog-heading">{t("singleBlogHeading")}</h2>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
             <img
@@ -62,7 +64,7 @@ const BlogSection = () => {
               alt="blog-thumbnail"
               className="swiper-img"
             />
-            <h2 className="blog-heading">In The Waves Of The Shining Sun</h2>
+            <h2 className="blog-heading">{t("singleBlogHeading")}</h2>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
             <img
@@ -70,7 +72,7 @@ const BlogSection = () => {
               alt="blog-thumbnail"
               className="swiper-img"
             />
-            <h2 className="blog-heading">In The Waves Of The Shining Sun</h2>
+            <h2 className="blog-heading">{t("singleBlogHeading")}</h2>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
             <img
@@ -78,7 +80,7 @@ const BlogSection = () => {
               alt="blog-thumbnail"
               className="swiper-img"
             />
-            <h2 className="blog-heading">In The Waves Of The Shining Sun</h2>
+            <h2 className="blog-heading">{t("singleBlogHeading")}</h2>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
             <img
@@ -86,7 +88,7 @@ const BlogSection = () => {
               alt="blog-thumbnail"
               className="swiper-img"
             />
-            <h2 className="blog-heading">In The Waves Of The Shining Sun</h2>
+            <h2 className="blog-heading">{t("singleBlogHeading")}</h2>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
             <img
@@ -94,11 +96,11 @@ const BlogSection = () => {
               alt="blog-thumbnail"
               className="swiper-img"
             />
-            <h2 className="blog-heading">In The Waves Of The Shining Sun</h2>
+            <h2 className="blog-heading">{t("singleBlogHeading")}</h2>
           </SwiperSlide>
           <p className="invisible">See more</p>
         </Swiper>
-        <p className="see-more">See more</p>
+        <p className="see-more">{t("seeMore")}</p>
       </div>
     </section>
   );

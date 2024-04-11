@@ -1,7 +1,10 @@
 import React from "react";
 import "./orbithero.css";
+import { useTranslation } from "react-i18next";
 
 const OrbitHero = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-orbit">
       <div className="center-circle"></div>
@@ -47,17 +50,19 @@ const OrbitHero = () => {
           <div className="circle-6-orbit-marketing-mini-2"></div>
         </div>
       </div>
-      <h3 className="blue-planet-name branding">Branding</h3>
-      <h3 className="blue-planet-name web">Web development</h3>
-      <h3 className="blue-planet-name prodaction">Production</h3>
-      <h3 className="blue-planet-name content">Create content</h3>
+      <h3 className="blue-planet-name branding">{t("branding")}</h3>
+      <h3 className="blue-planet-name web">{t("webDevelopment")}</h3>
+      <h3 className="blue-planet-name prodaction">{t("production")}</h3>
+      <h3 className="blue-planet-name content">{t("createContent")}</h3>
       <h3 className="blue-planet-name social">
-        Social media <br></br>
-        <span className="white-planet-name management">management</span>
+        {t("socialMedia")} <br></br>
+        <span className="white-planet-name management">{t("management")}</span>
       </h3>
       <h3 className="blue-planet-name strategy">
-        <span className="white-planet-name marketing">Marketing creating</span>{" "}
-        a strategy
+        <span className="white-planet-name marketing">
+          {t("marketingCreating")}
+        </span>{" "}
+        {t("strategy")}
       </h3>
     </div>
   );

@@ -1,15 +1,16 @@
 import React from "react";
 import "./team-section.css";
+import { useTranslation } from "react-i18next";
 
 const TeamSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="section team-section">
-      <h3 className="team-end-heading">We are looking for you!</h3>
-      <h3 className="team-end-heading-2">
-        Do you want to be part of the most ambitious and modern team?
-      </h3>
+      <h3 className="team-end-heading">{t("teamEndHeading")}</h3>
+      <h3 className="team-end-heading-2">{t("teamEndHeading2")}</h3>
       <a href="/contact" className="team-contact-btn">
-        Contact Us
+        {t("contactUs")}
       </a>
     </section>
   );

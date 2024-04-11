@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
 import "./footer.css";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const form = useRef();
+  const { t } = useTranslation();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -29,11 +31,11 @@ const Footer = () => {
     <footer>
       <div className="footer-upper-container">
         <div className="location-box">
-          <h2 className="location-heading">Location</h2>
-          <p className="location-paragraph">T.ShevChenko 12, Tbilisi</p>
+          <h2 className="location-heading">{t("location")}</h2>
+          <p className="location-paragraph">{t("locationStreet")}</p>
         </div>
         <div className="contact-box">
-          <h2 className="contact-heading">Contact</h2>
+          <h2 className="contact-heading">{t("contact")}</h2>
           <p className="contact-paragraph">info@simplesteps.ge</p>
           <p className="contact-paragraph">+995 550 05 00 66</p>
         </div>
@@ -42,18 +44,18 @@ const Footer = () => {
             className="footer-email"
             type="email"
             name="email"
-            placeholder="Your Email"
+            placeholder={t("yourEmail")}
             required
           />
           <textarea
             name="message"
             rows="7"
-            placeholder="send us your message..."
+            placeholder={t("yourMessage")}
             className="footer-message"
             required
           ></textarea>
           <button type="submit" className="btn-submit">
-            Send
+            {t("send")}
           </button>
         </form>
       </div>

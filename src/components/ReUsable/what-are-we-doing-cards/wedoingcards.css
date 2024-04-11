@@ -31,6 +31,7 @@
 
 .we-doing-card:hover {
   background-position: right;
+  cursor: pointer;
 }
 
 .we-doing-card:hover .card-heading {
@@ -80,6 +81,7 @@
 .card-description {
   font-size: 16px;
   padding: 16px;
+  color: #fff;
 }
 
 /************************************************/

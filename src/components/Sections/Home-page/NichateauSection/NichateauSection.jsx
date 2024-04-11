@@ -1,20 +1,22 @@
 import React from "react";
 import "./nichateau-section.css";
+import { useTranslation } from "react-i18next";
 
 const NichateauSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="section nichateau-section">
       <div className="nichateau-container">
         <div className="nichateau-text-box">
-          <h2 className="our-projects-heading">One of our favorite projects</h2>
-          <h3 className="nichateau-heading">Nichateau</h3>
+          <h2 className="our-projects-heading">{t("favProjects")}</h2>
+          <h3 className="nichateau-heading">{t("nichateau")}</h3>
           <p className="nichateau-description">
-            Wine as a part of history, <br /> traditional dishes as a part of
-            culture, vineyards as a part of nature, <br /> and cellars as a part
-            of grape house-we took all the delicious details <br /> and created
-            the taste of Georgian culture under the name of <br /> Nichateau
+            {t("nichateauDesc1")} <br /> {t("nichateauDesc2")} <br />{" "}
+            {t("nichateauDesc3")} <br /> {t("nichateauDesc4")} <br />{" "}
+            {t("nichateau")}
           </p>
-          <h3 className="nichateau-sub-heading">See more</h3>
+          <h3 className="nichateau-sub-heading">{t("seeMore")}</h3>
         </div>
         <div className="nichateau-img-box">
           <img src="./img/nichateau-img.png" alt="nichateau-img" />

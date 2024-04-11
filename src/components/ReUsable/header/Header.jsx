@@ -1,11 +1,22 @@
 import React, { useState } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { I18nextProvider } from "react-i18next";
+import i18n from "../../../i18next";
 
 const Header = () => {
   const [active, setActive] = useState("nav-menu");
   const [toggleIcon, setToggleIcon] = useState("nav-toggler");
   const [solid, setSolid] = useState(false);
+
+  const { t, i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    const currentLanguage = i18n.language;
+    const nextLanguage = currentLanguage === "en" ? "ge" : "en";
+    i18n.changeLanguage(nextLanguage);
+  };
 
   const changeBackground = () => {
     if (window.scrollY >= 200) {
@@ -36,43 +47,48 @@ const Header = () => {
       <ul className={active}>
         <li className="nav-item">
           <Link to={"/"} className="nav-link">
-            Home
+            {t("home")}
           </Link>
         </li>
         <li className="nav-item">
           <Link to={"/about-us"} className="nav-link">
-            About Us
+            {t("about")}
           </Link>
         </li>
         <li className="nav-item">
           <Link to={"/services"} className="nav-link">
-            Services
+            {t("services")}
           </Link>
         </li>
         <li className="nav-item">
           <Link to={"/blog"} className="nav-link">
-            Blog
+            {t("blog")}
           </Link>
         </li>
         <li className="nav-item">
           <Link to={"#"} className="nav-link">
-            Academy
+            {t("academy")}
           </Link>
         </li>
         <li className="nav-item">
           <Link to={"/career"} className="nav-link">
-            Career
+            {t("career")}
           </Link>
         </li>
         <li className="nav-item">
           <Link to={"/contact"} className="nav-link">
-            Contact
+            {t("contact")}
           </Link>
         </li>
         <li className="nav-item">
           <Link to={"/portfolio"} className="nav-link">
-            Portfolio
+            {t("portfolio")}
           </Link>
+        </li>
+        <li className="nav-item">
+          <button onClick={toggleLanguage} className="translate-btn">
+            {i18n.language === "en" ? "Geo" : "Eng"}
+          </button>
         </li>
       </ul>
       <div onClick={navToggle} className={toggleIcon}>
