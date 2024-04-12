@@ -78,7 +78,7 @@ const WeDoingCards = () => {
             </div>
           </div>
         </Link>
-        <Link to="/brand-audit">
+        <Link to="/brand-audit" className="card-7">
           <div className="we-doing-card card-7">
             <h2 className="card-heading">{t("BrandAudit")}</h2>
             <div className="card-body">
@@ -102,63 +102,63 @@ const WeDoingCards = () => {
           </div>
         </Link>
         <div className="we-doing-cards">
-          <div className="we-doing-card we-doing-double we-doing-double-upper">
-            <h2 className="card-heading">{t("BrandAudit")}</h2>
-            <div className="card-body">
-              <p className="card-description">{t("BrandAuditText")}</p>
-              <Link to="/brand-audit">
+          <Link to="/brand-audit">
+            <div className="we-doing-card we-doing-double we-doing-double-upper">
+              <h2 className="card-heading">{t("BrandAudit")}</h2>
+              <div className="card-body">
+                <p className="card-description">{t("BrandAuditText")}</p>
                 <FaArrowRight className="card-arrow" />
-              </Link>
+              </div>
             </div>
-          </div>
-          <div className="we-doing-card we-doing-double we-doing-double-lower">
-            <h2 className="card-heading">{t("managementCardHeading")}</h2>
-            <div className="card-body">
-              <p className="card-description">{t("managementText")}</p>
-              <Link to="/management">
+          </Link>
+          <Link to="/management">
+            <div className="we-doing-card we-doing-double we-doing-double-lower">
+              <h2 className="card-heading">{t("managementCardHeading")}</h2>
+              <div className="card-body">
+                <p className="card-description">{t("managementText")}</p>
                 <FaArrowRight className="card-arrow" />
-              </Link>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
-        <div className="we-doing-card card-3">
-          <h2 className="card-heading">{t("strategyHeading")}</h2>
-          <div className="card-body">
-            <p className="card-description">{t("strategyText")}</p>
-            <Link to="/marketing">
+        <Link to="/marketing">
+          <div className="we-doing-card card-3">
+            <h2 className="card-heading">{t("strategyHeading")}</h2>
+            <div className="card-body">
+              <p className="card-description">{t("strategyText")}</p>
               <FaArrowRight className="card-arrow" />
-            </Link>
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="we-doing-cards">
-          <div className="we-doing-card we-doing-double we-doing-double-upper">
-            <h2 className="card-heading">{t("contentCreation")}</h2>
-            <div className="card-body">
-              <p className="card-description">{t("contentText")}</p>
-              <Link to="/content">
+          <Link to="/content">
+            <div className="we-doing-card we-doing-double we-doing-double-upper">
+              <h2 className="card-heading">{t("contentCreation")}</h2>
+              <div className="card-body">
+                <p className="card-description">{t("contentText")}</p>
                 <FaArrowRight className="card-arrow" />
-              </Link>
+              </div>
             </div>
-          </div>
-          <div className="we-doing-card we-doing-double we-doing-double-lower">
-            <h2 className="card-heading">{t("videoPhoto")}</h2>
-            <div className="card-body">
-              <p className="card-description">{t("videoPhotoText")}</p>
-              <Link to="/production">
+          </Link>
+          <Link to="/production">
+            <div className="we-doing-card we-doing-double we-doing-double-lower">
+              <h2 className="card-heading">{t("videoPhoto")}</h2>
+              <div className="card-body">
+                <p className="card-description">{t("videoPhotoText")}</p>
                 <FaArrowRight className="card-arrow" />
-              </Link>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
-        <div className="we-doing-card card-4">
-          <h2 className="card-heading">{t("webDevHeading")}</h2>
-          <div className="card-body">
-            <p className="card-description">{t("webDevText")}</p>
-            <Link to="/web-development">
+        <Link to="/web-development">
+          <div className="we-doing-card card-4">
+            <h2 className="card-heading">{t("webDevHeading")}</h2>
+            <div className="card-body">
+              <p className="card-description">{t("webDevText")}</p>
               <FaArrowRight className="card-arrow" />
-            </Link>
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
     );
   }

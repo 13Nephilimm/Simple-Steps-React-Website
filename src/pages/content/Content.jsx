@@ -5,13 +5,12 @@ import Header from "../../components/ReUsable/header/Header";
 import Footer from "../../components/ReUsable/footer/Footer";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
+import { useTranslation } from "react-i18next";
 
 const Content = () => {
-  const btnArray = [
-    "Determining the content of posts",
-    "Subscription of one month plan - calendar",
-    "Creation of copy and graphic works",
-  ];
+  const { t } = useTranslation();
+
+  const btnArray = [t("determining"), t("subscription"), t("creationGraphic")];
 
   const imgArray = ["./img/content-single.png"];
 
@@ -19,19 +18,13 @@ const Content = () => {
     <div>
       <Header />
       <ServTemplate
-        headingOne={"Content creation"}
-        descOne={`We specialize in creating compelling copy and modern visual content to present your product in the best possible way. Our goal is to captivate your audience with engaging narratives and eye-catching imagery, ensuring that your product grabs attention and connects with potential customers.`}
+        headingOne={t("contentCreation")}
+        descOne={t("contentDesc")}
         statOne={"100+"}
-        statOneHeading={"Clients"}
-        includeHeading={
-          "Constantly updated content indicates the credibility of the business"
-        }
-        descTwo={
-          "Content is a static or dynamic post on a social network - photo, video. In order for the user to perceive you as an effective and active brand, it is necessary that the content created by you constantly responds to current processes."
-        }
-        descThree={
-          "After defining the audience, we predetermine the content of the posts and create a calendar in which we write a detailed plan for a month. This allows us to make the work process completely transparent for our customers."
-        }
+        statOneHeading={t("clients")}
+        includeHeading={t("contentIncludeHeading")}
+        descTwo={t("contentDescTwo")}
+        descThree={t("contentDescThree")}
         btns={btnArray}
         imgs={imgArray}
       />

@@ -1,8 +1,11 @@
 import React from "react";
 import "./contact-section.css";
 import ComingSoon from "../../../ReUsable/coming-soon/ComingSoon";
+import { useTranslation } from "react-i18next";
 
 const ContactSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="section contact-section">
       <ComingSoon />
@@ -17,7 +20,7 @@ const ContactSection = () => {
           ></video>
         </div>
         <h1 className="contact-heading-1">
-          Send us your data <br /> Our team will contact you
+          {t("contactHeading1")} <br /> {t("contactHeading2")}
         </h1>
       </div>
     </section>

@@ -1,9 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./contact-form-section.css";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
 const ContactFormSection = ({ formId }) => {
+  const { t } = useTranslation();
   const form = useRef();
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,11 +22,17 @@ const ContactFormSection = ({ formId }) => {
       .then(
         (result) => {
           console.log(result.text);
+          setIsSuccess(true);
+          setIsError(false);
         },
         (error) => {
           console.log(error.text);
+          setIsSuccess(false);
+          setIsError(true);
         }
       );
+
+    e.target.reset();
   };
 
   return (
@@ -33,41 +43,42 @@ const ContactFormSection = ({ formId }) => {
           className="contact-name"
           type="name"
           name="name"
-          placeholder="Full Name*"
+          placeholder={t("fullName")}
           required
         />
         <input
           className="contact-mobile"
           type="number"
           name="mobile"
-          placeholder="Mobile Number*"
+          placeholder={t("mobileNumber")}
           required
         />
         <input
           className="contact-email"
           type="email"
           name="email"
-          placeholder="E-Mail*"
+          placeholder={t("email")}
         />
         <input
           className="contact-company"
           type="name"
           name="company"
-          placeholder="Company Name"
+          placeholder={t("companyName")}
         />
         <textarea
           name="message"
           rows="7"
-          placeholder="Message"
+          placeholder={t("message")}
           className="contact-message"
         ></textarea>
         <button type="submit" className="contact-btn-submit">
-          Send
+          {t("send")}
         </button>
       </form>
+      {isSuccess && <p className="success-message">{t("successMessage")}</p>}
+      {isError && <p className="error-message">{t("errorMessage")}</p>}
       <p className="contact-span">
-        If you are interested in our services, please leave your contact
-        information and we <br /> will definitely contact you
+        {t("contactSpan1")} <br /> {t("contactSpan2")}
       </p>
     </section>
   );

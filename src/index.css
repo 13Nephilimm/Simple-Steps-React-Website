@@ -39,3 +39,7 @@ img {
 .section {
   margin-top: 96px;
 }
+
+.display-none {
+  display: none !important;
+}

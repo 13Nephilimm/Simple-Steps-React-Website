@@ -65,6 +65,18 @@
   background-image: linear-gradient(to right, #000, #0000fe);
 }
 
+.success-message {
+  text-align: center;
+  color: #05b205;
+  padding: 16px;
+}
+
+.error-message {
+  text-align: center;
+  color: #cd0b0b;
+  padding: 16px;
+}
+
 @media only screen and (max-width: 1024px) {
   .contact-form-section {
     padding: 16px 36px;

@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./tabs-section.css";
+import { useTranslation } from "react-i18next";
 
 const TabsSection = () => {
   const [activeTab, setActiveTab] = useState(0);
+  const { t } = useTranslation();
 
   const handleTabClick = (index) => {
     setActiveTab(index);
@@ -10,11 +12,9 @@ const TabsSection = () => {
 
   return (
     <section className="tabs-section">
-      <h2 className="tabs-heading">Our Workflow</h2>
+      <h2 className="tabs-heading">{t("tabsHeading")}</h2>
       <p className="tabs-description">
-        Our work process consists of several stages. Every project goes through
-        each of these <br /> steps to arrive at the outcome with the right
-        ambitions and expectations.
+        {t("tabsDesc")} <br /> {t("tabsDesc2")}
       </p>
 
       <div className="tabs">
@@ -35,7 +35,7 @@ const TabsSection = () => {
             <span
               className={`tab-name ${activeTab === 0 ? "tab-name-active" : ""}`}
             >
-              Introduction
+              {t("introduction")}
             </span>
           </div>
           <div className="tab-border">
@@ -54,7 +54,7 @@ const TabsSection = () => {
             <span
               className={`tab-name ${activeTab === 1 ? "tab-name-active" : ""}`}
             >
-              Strategy
+              {t("introduction")}
             </span>
           </div>
           <div className="tab-border">
@@ -73,7 +73,7 @@ const TabsSection = () => {
             <span
               className={`tab-name ${activeTab === 2 ? "tab-name-active" : ""}`}
             >
-              Workflow
+              {t("workflow")}
             </span>
           </div>
           <div className="tab-border">
@@ -90,7 +90,7 @@ const TabsSection = () => {
             <span
               className={`tab-name ${activeTab === 3 ? "tab-name-active" : ""}`}
             >
-              Results
+              {t("results")}
             </span>
           </div>
         </div>
@@ -99,34 +99,28 @@ const TabsSection = () => {
             className={`tab-pane ${activeTab === 0 ? "active" : "hidden-tab"}`}
           >
             <p className="tab-text">
-              We plan to meet with the customer, get to know his business, try
-              to <br /> understand his interests and wishes as much as possible
+              {t("tabText")} <br /> {t("tabText2")}
             </p>
           </div>
           <div
             className={`tab-pane ${activeTab === 1 ? "active" : "hidden-tab"}`}
           >
             <p className="tab-text">
-              A thorough product/business study begins, along with relevant
-              market and <br /> competitor research, which is why a strategy is
-              written for what type of <br /> content and advertising we will
-              work with for this business.
+              {t("tabText3")} <br /> {t("tabText4")} <br /> {t("tabText5")}
             </p>
           </div>
           <div
             className={`tab-pane ${activeTab === 2 ? "active" : "hidden-tab"}`}
           >
             <p className="tab-text">
-              The work process begins: we plan photo/video shoots, publish
-              posts, <br /> advertise the brand on social networks
+              {t("tabText6")} <br /> {t("tabText7")}
             </p>
           </div>
           <div
             className={`tab-pane ${activeTab === 3 ? "active" : "hidden-tab"}`}
           >
             <p className="tab-text">
-              We inform the customer of the obtained results and send a weekly
-              or monthly <br /> report
+              {t("tabText8")} <br /> {t("tabText9")}
             </p>
           </div>
         </div>

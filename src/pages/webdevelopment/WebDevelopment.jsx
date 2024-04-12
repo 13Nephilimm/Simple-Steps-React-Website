@@ -5,15 +5,18 @@ import Header from "../../components/ReUsable/header/Header";
 import Footer from "../../components/ReUsable/footer/Footer";
 import ContactFormSection from "../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../components/ReUsable/infinite-slider/InfiniteSlider";
+import { useTranslation } from "react-i18next";
 
 const WebDevelopment = () => {
+  const { t } = useTranslation();
+
   const btnArray = [
-    "UI/UX DESIGN",
-    "ux RESEARCH",
-    "WEB-SITE",
-    "Determining the complexity of the site",
-    "Evaluation of functionality",
-    "Writing technical tasks",
+    t("uiux"),
+    t("uxResearch"),
+    t("website"),
+    t("complexity"),
+    t("functionality"),
+    t("technical"),
   ];
 
   const imgArray = ["./img/web-single.png"];
@@ -22,23 +25,17 @@ const WebDevelopment = () => {
     <div>
       <Header />
       <ServTemplate
-        headingOne={"UI/UX & web-development"}
-        descOne={`A website offers customers a convenient way to learn about a company and its offerings without the need for physical visits or phone calls. This accessibility can lead to higher customer engagement and satisfaction.`}
+        headingOne={t("webHeading")}
+        descOne={t("webDesc")}
         statOne={"100+"}
         statTwo={"50+"}
         statThree={"30+"}
-        statOneHeading={"Clients"}
-        statTwoHeading={"UI/UX DESIGN"}
-        statThreeHeading={"Website"}
-        includeHeading={
-          "A website is a powerful marketing tool for a business."
-        }
-        descTwo={
-          "A professionally designed website will instill confidence in potential customers in the products or services your business offers. Through the website, the user will easily find out all the information he needs in one place, be it a list of products and services, contact number, location, or working hours."
-        }
-        descThree={
-          "We create a perfect website tailored to business goals and interests that will simplify the user experience."
-        }
+        statOneHeading={t("clients")}
+        statTwoHeading={t("uiux")}
+        statThreeHeading={t("website")}
+        includeHeading={t("webIncludeHeading")}
+        descTwo={t("webDescTwo")}
+        descThree={t("webDescThree")}
         btns={btnArray}
         imgs={imgArray}
       />

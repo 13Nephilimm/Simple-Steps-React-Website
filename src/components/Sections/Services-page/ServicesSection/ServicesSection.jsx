@@ -1,8 +1,11 @@
 import React from "react";
 import "./services-section.css";
 import ComingSoon from "../../../ReUsable/coming-soon/ComingSoon";
+import { useTranslation } from "react-i18next";
 
 const ServicesSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="section services-section">
       <ComingSoon />
@@ -17,10 +20,10 @@ const ServicesSection = () => {
           ></video>
         </div>
         <h1 className="section-heading-1">
-          Increase your brand <br /> awareness on social media
+          {t("sectionHeading1")} <br /> {t("sectionHeading2")}
         </h1>
         <h1 className="section-heading-2">
-          Develop the right marketing <br /> strategy for your business
+          {t("sectionHeading3")} <br /> {t("sectionHeading4")}
         </h1>
       </div>
     </section>

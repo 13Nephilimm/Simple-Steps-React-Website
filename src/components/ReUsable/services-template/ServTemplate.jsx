@@ -3,6 +3,7 @@ import "./serv-template.css";
 import "../coming-soon/ComingSoon";
 import ComingSoon from "../coming-soon/ComingSoon";
 import InfiniteSlider from "../infinite-slider/InfiniteSlider";
+import { useTranslation } from "react-i18next";
 
 const ServTemplate = ({
   headingOne,
@@ -19,6 +20,7 @@ const ServTemplate = ({
   btns,
   imgs,
 }) => {
+  const { t } = useTranslation();
   return (
     <>
       <section className="serv-hero-section">
@@ -54,7 +56,7 @@ const ServTemplate = ({
           <p className="include-description include-description-2">
             {descThree}
           </p>
-          <span className="include-span">What Include</span>
+          <span className="include-span">{t("serviceIncludes")}</span>
           <div className="include-container">
             {btns.map((btn) => {
               return <button className="include-btn">{btn}</button>;

@@ -30,6 +30,10 @@
   padding: 64px 0;
 }
 
+a .btn-introduce {
+  width: 100%;
+}
+
 .btn-introduce {
   background-color: #0000fe;
   color: #fff;
