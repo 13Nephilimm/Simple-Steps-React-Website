@@ -1,0 +1,22 @@
+.academy-testimonials-section {
+  margin-top: 96px;
+  padding-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-card {
+  height: 430px;
+  width: 330px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.testimonials-img-box {
+  height: 200px;
+}
+
+.mentor {
+  height: 100%;
+}

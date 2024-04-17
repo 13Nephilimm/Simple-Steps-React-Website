@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "./header.css";
+import "./academy-header.css";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { I18nextProvider } from "react-i18next";
 import i18n from "../../../i18next";
 
-const Header = () => {
+const AcademyHeader = () => {
   const [active, setActive] = useState("nav-menu");
   const [toggleIcon, setToggleIcon] = useState("nav-toggler");
   const [solid, setSolid] = useState(false);
@@ -46,43 +46,23 @@ const Header = () => {
       </Link>
       <ul className={active}>
         <li className="nav-item">
-          <Link to={"/"} className="nav-link">
+          <Link to={"/academy"} className="nav-link">
             {t("home")}
           </Link>
         </li>
         <li className="nav-item">
-          <Link to={"/about-us"} className="nav-link">
+          <Link to={"/academy-courses"} className="nav-link">
+            {t("courses")}
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to={"/academy-about"} className="nav-link">
             {t("about")}
           </Link>
         </li>
         <li className="nav-item">
-          <Link to={"/services"} className="nav-link">
-            {t("services")}
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to={"/blog"} className="nav-link">
-            {t("blog")}
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to={"/academy"} target="_blank" className="nav-link">
-            {t("academy")}
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to={"/career"} className="nav-link">
-            {t("career")}
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to={"/contact"} className="nav-link">
+          <Link to={"/academy-contact"} className="nav-link">
             {t("contact")}
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to={"/portfolio"} className="nav-link">
-            {t("portfolio")}
           </Link>
         </li>
         <li className="nav-item">
@@ -100,4 +80,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AcademyHeader;

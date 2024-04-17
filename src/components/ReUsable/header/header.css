@@ -56,10 +56,10 @@
 
   .nav-menu {
     position: fixed;
-    top: 7vh;
+    top: 0;
     right: 0;
     width: 50%;
-    height: 93vh;
+    height: 100vh;
     background-color: #000;
     flex-direction: column;
     transform: translateX(100%);
@@ -76,6 +76,10 @@
 @media only screen and (max-width: 590px) {
   .nav {
     padding: 0 16px;
+  }
+
+  .nav-menu {
+    gap: 12px;
   }
 }
 

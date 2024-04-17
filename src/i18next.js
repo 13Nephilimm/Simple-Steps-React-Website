@@ -13,6 +13,7 @@ const resources = {
       career: "Career",
       contact: "Contact",
       portfolio: "Portfolio",
+      courses: "Courses",
       // FOOTER
       location: "Location",
       locationStreet: "T.ShevChenko 12, Tbilisi",
@@ -255,6 +256,34 @@ const resources = {
       complexity: "Determining the complexity of the site",
       functionality: "Evaluation of functionality",
       technical: "Writing technical tasks",
+
+      // **********************************************
+      // ACADEMY PAGES ********************************
+      // **********************************************
+      // ACADEMY HOME
+      firstTime: "For the first time",
+      inGeorgia: "in Georgia",
+      metaCertification: "META's official certification exam",
+      registration: "Registration",
+      metasExam: "META's Exam",
+      metaExamText:
+        "Simple Steps Academy, the first academy in Georgia, where it is possible to get the official Meta BLUEPRINT certificate",
+      academyCoursesHeading: "Courses of simple steps academy",
+      courseCardHeadingMarketing: "Digital Marketing Course",
+      mentor: "Mentor:",
+      nika: "Nika Iordanishvili",
+      sandro: "Alexandre Chomakhidze",
+      mariami: "Mariam Kharatishvili",
+      aboutCourse: "About Course",
+      courseCardHeadingDesign: "Graphic design course",
+      allCoursesBtn: "See All Courses",
+      testimonialsHeading: "Testimonials",
+      testimonials:
+        "I took a digital marketing course with Nika and Sandros, which helped me a lot in promoting my business. Once I got introduced to this field, I got better results than I could have ever imagined.",
+      testimonials2:
+        "When I started the course, I didn't know anything about digital marketing and advertising, after I finished the course, I started working in one of the digital agencies very soon and it felt like I was working in this field all the time.",
+      testimonials3:
+        "I completed a digital marketing course and already have a Meta certificate. I am glad that I got into Simple Steps Academy, they prepared me exceptionally well for the Meta exam and I passed the exam very easily.",
     },
   },
   ge: {
@@ -268,6 +297,7 @@ const resources = {
       career: "კარიერა",
       contact: "კონტაქტი",
       portfolio: "პორტფოლიო",
+      courses: "კურსები",
       // FOOTER
       location: "მისამართი",
       locationStreet: "ტ.შევჩენკოს 12, თბილისი",
@@ -499,6 +529,34 @@ const resources = {
       complexity: "საიტის სირთულის განსაზღვრა",
       functionality: "ფუნქციონალის შეფასება",
       technical: "ტექნიკური თასქების დაწერა",
+
+      // **********************************************
+      // ACADEMY PAGES ********************************
+      // **********************************************
+      // ACADEMY HOME
+      firstTime: "პირველად",
+      inGeorgia: "საქართველოში",
+      metaCertification: "META-ს სერტიფიკატის ოფიციალური გამოცდა",
+      registration: "რეგისტრაცია",
+      metasExam: "მეტას გამოცდა",
+      metaExamText:
+        "Simple Steps Academy, პირველი აკადემია საქართველოში, სადაც Meta BLUEPRINT -ის ოფიციალური სერტიფიკატის აღებაა შესაძლებელი",
+      academyCoursesHeading: "simple steps academy-ის კურსები",
+      mentor: "მენტორი:",
+      nika: "ნიკა იორდანიშვილი",
+      sandro: "ალექსანდრე ჩომახიძე",
+      mariami: "მარიამ ხარატიშვილი",
+      aboutCourse: "კურსის შესახებ",
+      courseCardHeadingDesign: "გრაფიკული დიზაინის კურსი",
+      courseCardHeadingMarketing: "ციფრული მარკეტინგის კურსი",
+      allCoursesBtn: "ყველა კურსის ნახვა",
+      testimonialsHeading: "სტუდენტთა შეფასებები",
+      testimonials:
+        "ნიკასთან და სანდროსთან გავიარე ციფრული მარკეტინგის კურსი, რაც ძალიან დამეხმარა ჩემი ბიზნესის წინ წამოწევაში. როგორც კი გავეცანი ამ სფეროს, თავიდანვე იმაზე კარგი შედეგი მივიღე, ვიდრე წარმოვიდგენდი.",
+      testimonials2:
+        "კურსის გავლა რომ დავიწყე, არაფერი ვიცოდი ციფრული მარკეტინგის და რეკლამის გარშემო, კურსი რომ დავამთავრე, ძალიან მალე დავიწყე მუშაობა ერთ-ერთ ციფრულ სააგენტოში და ისეთი შეგრძნება მქონდა, თითქოს სულ ამ სფეროში ვმუშაობდი.",
+      testimonials3:
+        "ციფრული მარკეტინგის კურსი გავიარე და უკვე მეტას სერტიფიკატიც მაქვს. მიხარია, რომ Simple Steps Academy-ში მოვხვდი, მეტას გამოცდისთვის არაჩვეულებრივად მომამზადეს და გამოცდა ძალიან მარტივად ჩავაბარე.",
     },
   },
 };

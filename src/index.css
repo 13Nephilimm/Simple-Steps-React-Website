@@ -6,6 +6,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: Loos !important;
 }
 
 html {
@@ -18,8 +19,9 @@ html {
 }
 
 body {
-  font-family: "IBM Plex Sans Devanagari", sans-serif;
+  /* font-family: "IBM Plex Sans Devanagari", sans-serif; */
   /* font-family: 'Press Start 2P', system-ui; */
+  font-family: Loos;
   background-color: #000;
   color: #fff;
   line-height: 1.7;

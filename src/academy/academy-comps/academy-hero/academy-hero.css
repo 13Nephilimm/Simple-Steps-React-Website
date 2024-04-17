@@ -1,0 +1,49 @@
+.academy-hero-container {
+  display: flex;
+}
+
+.academy-hero-img {
+  z-index: 99;
+  width: 50%;
+}
+
+.academy-hero-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px;
+  z-index: 99;
+}
+
+.academy-hero-heading {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.academy-hero-subheading {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #f8fa01;
+}
+
+.academy-swiper,
+.academy-swiper-slide {
+  margin: 0;
+  padding: 0;
+}
+
+.academy-hero-section .swiper-button-next,
+.academy-hero-section .swiper-button-prev {
+  position: absolute;
+  top: 50% !important;
+  padding: 24px !important;
+}
+
+.academy-hero-section .swiper-button-prev:after,
+.academy-hero-section .swiper-button-next:after {
+  font-size: 48px !important;
+}

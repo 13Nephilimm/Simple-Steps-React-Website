@@ -15,6 +15,10 @@ import Marketing from "./pages/marketing/Marketing";
 import Content from "./pages/content/Content";
 import Production from "./pages/production/Production";
 import WebDevelopment from "./pages/webdevelopment/WebDevelopment";
+import AcademyHome from "./academy/academy-pages/academy-home/AcademyHome";
+import AcademyAbout from "./academy/academy-pages/academy-about/AcademyAbout";
+import AcademyCourses from "./academy/academy-pages/academy-courses/AcademyCourses";
+import AcademyContact from "./academy/academy-pages/academy-contact/AcademyContact";
 
 function App() {
   return (
@@ -28,6 +32,7 @@ function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/academy" element={<AcademyHome />} />
         <Route path="/branding" element={<Branding />} />
         <Route path="/brand-audit" element={<BrandAudit />} />
         <Route path="/management" element={<Management />} />
@@ -35,6 +40,9 @@ function App() {
         <Route path="/content" element={<Content />} />
         <Route path="/production" element={<Production />} />
         <Route path="/web-development" element={<WebDevelopment />} />
+        <Route path="/academy-courses" element={<AcademyCourses />} />
+        <Route path="/academy-about" element={<AcademyAbout />} />
+        <Route path="/academy-contact" element={<AcademyContact />} />
       </Routes>
     </BrowserRouter>
   );
