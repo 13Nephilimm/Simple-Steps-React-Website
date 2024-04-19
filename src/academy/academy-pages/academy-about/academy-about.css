@@ -1,0 +1,57 @@
+.academy-about-hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.academy-about-hero-heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #fff;
+  z-index: 9;
+  word-spacing: 8px;
+}
+
+.academy-about-section-about {
+  margin-top: 96px;
+  padding-top: 96px;
+}
+
+.about-container {
+  padding: 96px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  gap: 80px;
+  z-index: 9;
+}
+
+.academy-about-info-box h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 36px 0 16px 0;
+}
+
+.course-card {
+  background-image: linear-gradient(to right bottom, #000, #0000fe);
+  border-radius: 10px;
+}
+
+.course-card-text-box {
+  padding: 8px 16px;
+}
+
+.mentor {
+  width: 100%;
+}
+
+.academy-about-mentors-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

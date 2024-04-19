@@ -284,6 +284,24 @@ const resources = {
         "When I started the course, I didn't know anything about digital marketing and advertising, after I finished the course, I started working in one of the digital agencies very soon and it felt like I was working in this field all the time.",
       testimonials3:
         "I completed a digital marketing course and already have a Meta certificate. I am glad that I got into Simple Steps Academy, they prepared me exceptionally well for the Meta exam and I passed the exam very easily.",
+      masterclass: "Masterclass",
+      masterclasses: "Masterclasses",
+      allMasterclassesBtn: "See all",
+      digitalMasterclass: "Masterclass of digital marketing",
+      aboutAcademy: "About Simple Steps Academy",
+      howCreated: "How was Simple steps academy created?",
+      howCreatedText:
+        "Simple Steps Academy was founded in 2024, however, before the establishment of the academy, our mentors, Nika Yordanishvili and Aleksandre Chomakhidze, conducted digital marketing courses and we have many successful graduates.",
+      whatWillULearn: "What will you learn in the courses?",
+      whatWillULearnText:
+        "It is possible to find out about the important aspects of digital marketing, consolidate knowledge with practical examples, develop the necessary skills and master the programs at the Simple Steps Academy course.",
+      realCases: "Real cases and real job opportunities.",
+      realCasesText:
+        "The educational structure adapted to the audience includes the widest range of trainings and master classes in the digital world. Guest speakers share real-life cases and trends from everyday work with students, helping to develop the insights and skills needed for career advancement. The educational approach of each course takes into account offers from partner companies: intern and expert positions.",
+      whyJoinUs: "Why should you join us?",
+      whyJoinUsText:
+        "For any business or individual to succeed today, it is necessary to adapt to a strategy or structure optimized for digital technology. In a comfortable environment adapted to the digital ecosystem, you will meet people who will share their visions and unique approaches with you, which will help you achieve the desired career milestones.",
+      aboutMentors: "Lecturers",
     },
   },
   ge: {
@@ -557,6 +575,24 @@ const resources = {
         "კურსის გავლა რომ დავიწყე, არაფერი ვიცოდი ციფრული მარკეტინგის და რეკლამის გარშემო, კურსი რომ დავამთავრე, ძალიან მალე დავიწყე მუშაობა ერთ-ერთ ციფრულ სააგენტოში და ისეთი შეგრძნება მქონდა, თითქოს სულ ამ სფეროში ვმუშაობდი.",
       testimonials3:
         "ციფრული მარკეტინგის კურსი გავიარე და უკვე მეტას სერტიფიკატიც მაქვს. მიხარია, რომ Simple Steps Academy-ში მოვხვდი, მეტას გამოცდისთვის არაჩვეულებრივად მომამზადეს და გამოცდა ძალიან მარტივად ჩავაბარე.",
+      masterclass: "მასტერკლასი",
+      allMasterclassesBtn: "ყველა მასტერკლასის ნახვა",
+      masterclasses: "მასტერკლასები",
+      digitalMasterclass: "ციფრული მარკეტინგის მასტერკლასი",
+      aboutAcademy: "Simple Steps Academy-ს შესახებ",
+      howCreated: "როგორ შეიქმნა Simple steps academy?",
+      howCreatedText:
+        "Simple Steps Academy-ს 2024 წელს დაარსდა, თუმცა აკადემიის დაარსებამდე, ჩვენი მენტორები, ნიკა იორდანიშვილი და ალექსანდრე ჩომახიძე, ციფრული მარკეტინგის კურსებს ატარებდნენ და არაერთი წარმატებული კურსდამთავრებული გვყავს.",
+      whatWillULearn: "რას ისწავლი კურსებზე?",
+      whatWillULearnText:
+        "ციფრული მარკეტინგის მნიშვნელოვან ასპექტებში გარკვევა, ცოდნის პრაქტიკული მაგალითებით გამყარება, საჭირო უნარების გამომუშავება და პროგრამების დაუფლება Simple Steps Academy-ს კურსზეა შესაძლებელი.",
+      realCases: "რეალური ქეისები და რეალური სამუშაო შესაძლებლობები.",
+      realCasesText:
+        "აუდიტორიაზე მორგებული საგანმათლებლო სტრუქტურა, მოიცავს ტრენინგებისა და მასტერკლასების ყველაზე ფართო სპექტრს ციფრულ სამყაროში. მოწვეული სპიკერები სტუდენტებს ყოველდღიური სამუშაო პროცესიდან უზიარებენ რეალურ ქეისებსა და ტენდენციებს, რაც კარიერული წინსვლისთვის საჭირო ხედვებისა და უნარების განვითარებაში ეხმარებათ. თითოეული კურსის საგანმანათლებლო მიდგომა ითვალისწინებს პარტნიორი კომპანიებისგან შეთავაზებებს: ინტერნისა და ექსპერტის პოზიციებზე.",
+      whyJoinUs: "რატომ უნდა შემოგვიერთდე?",
+      whyJoinUsText:
+        "დღეს ნებისმიერი ბიზნესისა თუ ინდივიდისთვის წარმატების მისაღწევად აუცილებელია ციფრულ ტექნოლოგიაზე ოპტიმიზირებულ სტრატეგიასა თუ სტრუქტურასთან ადაპტირება. ციფრულ ეკოსისტემაზე მორგებულ, კომფორტულ გარემოში შეხვდები ადამიანებს, რომლებიც საკუთარ ხედვებსა და უნიკალურ მიდგომებს გაგიზიარებენ, რაც სასურველი კარიერული ეტაპების მიღწევაში დაგეხმარება.",
+      aboutMentors: "ლექტორები",
     },
   },
 };
