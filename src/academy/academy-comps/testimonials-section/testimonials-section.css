@@ -7,7 +7,7 @@
 }
 
 .testimonials-card {
-  height: 430px;
+  height: 480px !important;
   width: 330px;
   border-radius: 16px;
   overflow: hidden;

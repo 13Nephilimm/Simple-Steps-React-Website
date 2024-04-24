@@ -66,9 +66,10 @@ const Header = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link to={"/academy"} target="_blank" className="nav-link">
+          <Link to={"/academy"} className="nav-link">
             {t("academy")}
           </Link>
+          {/* target="_blank" */}
         </li>
         <li className="nav-item">
           <Link to={"/career"} className="nav-link">

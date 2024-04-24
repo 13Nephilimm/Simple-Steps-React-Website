@@ -19,6 +19,8 @@ import AcademyHome from "./academy/academy-pages/academy-home/AcademyHome";
 import AcademyAbout from "./academy/academy-pages/academy-about/AcademyAbout";
 import AcademyCourses from "./academy/academy-pages/academy-courses/AcademyCourses";
 import AcademyContact from "./academy/academy-pages/academy-contact/AcademyContact";
+import NikaSandro from "./academy/academy-pages/nika-sandro/NikaSandro";
+import GoogleAds from "./academy/academy-pages/google-ads/GoogleAds";
 
 function App() {
   return (
@@ -43,6 +45,8 @@ function App() {
         <Route path="/academy-courses" element={<AcademyCourses />} />
         <Route path="/academy-about" element={<AcademyAbout />} />
         <Route path="/academy-contact" element={<AcademyContact />} />
+        <Route path="/digital-marketing" element={<NikaSandro />} />
+        <Route path="/google-ads" element={<GoogleAds />} />
       </Routes>
     </BrowserRouter>
   );

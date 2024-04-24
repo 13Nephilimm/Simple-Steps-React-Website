@@ -7,7 +7,7 @@ const AcademyMasterclassSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="academy-courses-section">
+    <section className="academy-courses-section academy-masterclass-main">
       <h2 className="academy-courses-heading">{t("masterclasses")}</h2>
       <div className="academy-courses-container">
         <div className="white-gradient-circle"></div>
@@ -22,7 +22,7 @@ const AcademyMasterclassSection = () => {
             <p>{t("mentor")}</p>
             <span>{t("nika")}, </span>
             <span>{t("sandro")}</span>
-            <p className="about-course">{t("aboutCourse")}</p>
+            <p className="about-course">{t("comingSoon")}</p>
           </div>
         </div>
         <div className="course-card">
@@ -36,7 +36,7 @@ const AcademyMasterclassSection = () => {
             <p>{t("mentor")}</p>
             <span>{t("nika")}, </span>
             <span>{t("sandro")}</span>
-            <p className="about-course">{t("aboutCourse")}</p>
+            <p className="about-course">{t("comingSoon")}</p>
           </div>
         </div>
         <div className="course-card">
@@ -50,7 +50,7 @@ const AcademyMasterclassSection = () => {
             <p>{t("mentor")}</p>
             <span>{t("nika")}, </span>
             <span>{t("sandro")}</span>
-            <p className="about-course">{t("aboutCourse")}</p>
+            <p className="about-course">{t("comingSoon")}</p>
           </div>
         </div>
       </div>

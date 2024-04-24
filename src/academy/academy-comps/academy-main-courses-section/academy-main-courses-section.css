@@ -1,0 +1,36 @@
+.academy-main-courses-section {
+  margin-top: -350px;
+  z-index: 9;
+}
+
+.about-course {
+  color: #fff;
+}
+
+.mentor {
+  width: 100%;
+}
+
+.academy-courses-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.course-card-img-box,
+.course-card {
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.course-card-img-box {
+  height: 250px;
+}
+
+.course-card {
+  width: 340px;
+  height: 420px;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}

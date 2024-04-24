@@ -55,3 +55,9 @@
   flex-direction: column;
   gap: 24px;
 }
+
+.academy-about-section-about {
+  position: relative;
+  z-index: 9;
+  margin-top: -300px;
+}
