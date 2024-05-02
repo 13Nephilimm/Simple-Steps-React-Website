@@ -41,7 +41,7 @@ const AcademyHeader = () => {
 
   return (
     <nav className={solid ? "nav solid" : "nav"}>
-      <Link>
+      <Link to={"/"}>
         <img src="./img/nav-logo.png" alt="logo" className="nav-brand" />{" "}
       </Link>
       <ul className={active}>

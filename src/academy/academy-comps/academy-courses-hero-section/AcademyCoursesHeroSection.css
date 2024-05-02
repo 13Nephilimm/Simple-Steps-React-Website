@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .courses-hero-container {
@@ -37,4 +38,65 @@
 
 .courses-category-heading:hover::after {
   width: 100%;
+}
+
+/************************************************/
+/********* MEDIA QUERIES  *********/
+/************************************************/
+@media only screen and (max-width: 1380px) {
+  .academy-courses-hero-section {
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .academy-main-courses-section {
+    margin-top: -48px !important;
+  }
+
+  .academy-masterclass-main {
+    margin-top: 48px !important;
+  }
+
+  .masterclass-card {
+    height: 450px !important;
+  }
+
+  .all-masterclass-btn {
+    margin-bottom: 48px !important;
+  }
+}
+
+@media only screen and (max-width: 1232px) {
+  .masterclass-card {
+    height: 310px !important;
+  }
+
+  .courses-category-heading,
+  .academy-courses-heading {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .masterclass-card {
+    height: 270px !important;
+  }
+
+  #meta .contact-form-section {
+    padding: 16px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .courses-category-heading,
+  .academy-courses-heading {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .courses-category-heading {
+    font-size: 14px;
+  }
 }

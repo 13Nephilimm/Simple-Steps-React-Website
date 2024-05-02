@@ -67,13 +67,15 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  top: 90% !important;
+  top: 88% !important;
   color: #fff !important;
+  z-index: 98;
 }
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
   font-size: 24px !important;
+  z-index: 98;
 }
 
 /************************************************/

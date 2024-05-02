@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import SingleCourseTemp from "../../academy-comps/academy-single-course-temp/SingleCourseTemp";
 import AcademyHeader from "../../academy-comps/academy-header/AcademyHeader";
-import Footer from "../../../components/ReUsable/footer/Footer";
 import InfiniteSlider from "../../../components/ReUsable/infinite-slider/InfiniteSlider";
 import "./nika-sandro.css";
 import { useTranslation } from "react-i18next";
+import AcademyFooter from "../../academy-comps/academy-footer/AcademyFooter";
 
 const NikaSandro = () => {
   const { t } = useTranslation();
@@ -293,7 +293,7 @@ const NikaSandro = () => {
         img={"../img/nika-sandro-single.jpg"}
       />
       <InfiniteSlider />
-      <Footer />
+      <AcademyFooter />
     </div>
   );
 };

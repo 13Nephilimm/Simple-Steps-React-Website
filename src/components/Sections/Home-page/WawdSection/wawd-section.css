@@ -31,6 +31,12 @@
 /************************************************/
 /************** MEDIA QUERIES  ***************/
 /************************************************/
+@media only screen and (max-width: 1238px) {
+  .section-what-are-we-doing {
+    margin: 0;
+  }
+}
+
 @media only screen and (max-width: 1132px) {
   .section-what-are-we-doing {
     padding: 16px;

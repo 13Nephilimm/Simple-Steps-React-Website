@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import SingleCourseTemp from "../../academy-comps/academy-single-course-temp/SingleCourseTemp";
 import AcademyHeader from "../../academy-comps/academy-header/AcademyHeader";
-import Footer from "../../../components/ReUsable/footer/Footer";
 import InfiniteSlider from "../../../components/ReUsable/infinite-slider/InfiniteSlider";
 import "./google-ads.css";
 import { useTranslation } from "react-i18next";
+import AcademyFooter from "../../academy-comps/academy-footer/AcademyFooter";
 
 const GoogleAds = () => {
   const { t } = useTranslation();
@@ -153,7 +153,7 @@ const GoogleAds = () => {
         img={"../img/tiko.jpg"}
       />
       <InfiniteSlider />
-      <Footer />
+      <AcademyFooter />
     </div>
   );
 };

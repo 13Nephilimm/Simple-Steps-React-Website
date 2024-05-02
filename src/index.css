@@ -6,7 +6,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: Loos !important;
+  font-family: Loos, "IBM Plex Sans Devanagari", sans-serif !important;
 }
 
 html {

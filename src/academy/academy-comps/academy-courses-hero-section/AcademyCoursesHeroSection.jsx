@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import AcademyMainCoursesSection from "../academy-main-courses-section/AcademyMainCoursesSection";
 import AcademyMasterclassSection from "../academy-masterclass-section/AcademyMasterclassSection";
 import MetasExamSection from "../metas-exam-section/MetasExamSection";
+import ComingSoon from "../../../components/ReUsable/coming-soon/ComingSoon";
 
 const AcademyCoursesHeroSection = () => {
   const { t } = useTranslation();
@@ -12,6 +13,7 @@ const AcademyCoursesHeroSection = () => {
   return (
     <>
       <section className="academy-courses-hero-section">
+        <ComingSoon />
         <div className="courses-hero-container">
           <Link to="courses" smooth="true" className="courses-category-heading">
             {t("courses")}

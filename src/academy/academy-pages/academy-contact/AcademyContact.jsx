@@ -3,7 +3,7 @@ import "./academy-contact.css";
 import AcademyHeader from "../../academy-comps/academy-header/AcademyHeader";
 import ContactFormSection from "../../../components/Sections/Contact-page/ContactFormSection/ContactFormSection";
 import InfiniteSlider from "../../../components/ReUsable/infinite-slider/InfiniteSlider";
-import Footer from "../../../components/ReUsable/footer/Footer";
+import AcademyFooter from "../../academy-comps/academy-footer/AcademyFooter";
 
 const AcademyContact = () => {
   return (
@@ -11,7 +11,7 @@ const AcademyContact = () => {
       <AcademyHeader />
       <ContactFormSection formId={"Academy Page"} />
       <InfiniteSlider />
-      <Footer />
+      <AcademyFooter />
     </div>
   );
 };

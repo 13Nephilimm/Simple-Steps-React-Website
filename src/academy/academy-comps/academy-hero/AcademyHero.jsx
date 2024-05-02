@@ -8,12 +8,14 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import ComingSoon from "../../../components/ReUsable/coming-soon/ComingSoon";
 
 const AcademyHero = () => {
   const { t } = useTranslation();
 
   return (
     <section className="academy-hero-section">
+      <ComingSoon />
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={4}

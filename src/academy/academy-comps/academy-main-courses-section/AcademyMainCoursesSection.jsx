@@ -43,7 +43,7 @@ const AcademyMainCoursesSection = () => {
             </Link>
           </div>
         </div>
-        <div className="course-card">
+        <div className="course-card card-3">
           <div className="course-card-img-box">
             <img src="../img/mariami.png" alt="mentor" className="mentor" />
           </div>

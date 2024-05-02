@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import AcademyHeader from "../../academy-comps/academy-header/AcademyHeader";
 import ComingSoon from "../../../components/ReUsable/coming-soon/ComingSoon";
 import InfiniteSlider from "../../../components/ReUsable/infinite-slider/InfiniteSlider";
-import Footer from "../../../components/ReUsable/footer/Footer";
+import AcademyFooter from "../../academy-comps/academy-footer/AcademyFooter";
 
 const AcademyAbout = () => {
   const { t } = useTranslation();
@@ -54,7 +54,7 @@ const AcademyAbout = () => {
         </div>
       </section>
       <InfiniteSlider />
-      <Footer />
+      <AcademyFooter />
     </>
   );
 };

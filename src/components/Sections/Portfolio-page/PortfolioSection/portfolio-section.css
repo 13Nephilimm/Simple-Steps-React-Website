@@ -73,9 +73,9 @@
   margin-top: 150px;
 }
 
-@media only screen and (max-width: 1528px) {
+@media only screen and (max-width: 1540px) {
   .portfolio-headings {
-    margin-left: 96px;
+    margin-left: 48px;
   }
 
   .portfolio-project {
@@ -86,7 +86,7 @@
 
 @media only screen and (max-width: 1380px) {
   .portfolio-headings {
-    margin-left: 156px;
+    margin-left: 48px;
     font-size: 20px;
   }
 

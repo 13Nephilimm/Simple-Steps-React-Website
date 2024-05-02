@@ -11,7 +11,7 @@ const AcademyMasterclassSection = () => {
       <h2 className="academy-courses-heading">{t("masterclasses")}</h2>
       <div className="academy-courses-container">
         <div className="white-gradient-circle"></div>
-        <div className="course-card">
+        <div className="course-card masterclass-card">
           <div className="course-card-img-box">
             <img src="../img/sandro-nika.png" alt="mentor" className="mentor" />
           </div>
@@ -25,7 +25,7 @@ const AcademyMasterclassSection = () => {
             <p className="about-course">{t("comingSoon")}</p>
           </div>
         </div>
-        <div className="course-card">
+        <div className="course-card masterclass-card">
           <div className="course-card-img-box">
             <img src="../img/sandro-nika.png" alt="mentor" className="mentor" />
           </div>
@@ -39,7 +39,7 @@ const AcademyMasterclassSection = () => {
             <p className="about-course">{t("comingSoon")}</p>
           </div>
         </div>
-        <div className="course-card">
+        <div className="course-card masterclass-card card-3">
           <div className="course-card-img-box">
             <img src="../img/sandro-nika.png" alt="mentor" className="mentor" />
           </div>
@@ -55,7 +55,7 @@ const AcademyMasterclassSection = () => {
         </div>
       </div>
       <Link>
-        <button className="contact-btn-submit">
+        <button className="contact-btn-submit all-masterclass-btn">
           {t("allMasterclassesBtn")}
         </button>
       </Link>

@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
-import "./footer.css";
 import emailjs from "@emailjs/browser";
 import { useTranslation } from "react-i18next";
 
-const Footer = () => {
+const AcademyFooter = () => {
   const form = useRef();
   const { t } = useTranslation();
 
@@ -45,14 +44,14 @@ const Footer = () => {
         <div className="contact-box">
           <h2 className="contact-heading">{t("contact")}</h2>
           <a
-            href="mailto:info@simplesteps.ge"
+            href="mailto:academy@simplesteps.ge"
             target="_blank"
             className="contact-paragraph"
           >
-            info@simplesteps.ge
+            academy@simplesteps.ge
           </a>
-          <a href="tel:+995-550-05-00-66" className="contact-paragraph">
-            +995 550 05 00 66
+          <a href="tel:+995-514-999-555" className="contact-paragraph">
+            +995 514 999 555
           </a>
         </div>
         <form className="input-box" ref={form} onSubmit={sendEmail}>
@@ -89,4 +88,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default AcademyFooter;

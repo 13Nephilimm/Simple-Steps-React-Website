@@ -1,3 +1,7 @@
+.academy-hero-section {
+  position: relative;
+}
+
 .academy-hero-container {
   display: flex;
 }
@@ -46,4 +50,93 @@
 .academy-hero-section .swiper-button-prev:after,
 .academy-hero-section .swiper-button-next:after {
   font-size: 48px !important;
+}
+
+/************************************************/
+/********* MEDIA QUERIES  *********/
+/************************************************/
+@media only screen and (max-width: 1380px) {
+  .academy-hero-section {
+    overflow: hidden;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  .academy-hero-heading {
+    font-size: 48px;
+  }
+
+  .academy-hero-subheading {
+    font-size: 20px;
+  }
+
+  .academy-hero-section .swiper-button-prev:after,
+  .academy-hero-section .swiper-button-next:after {
+    font-size: 36px !important;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .academy-hero-heading {
+    font-size: 36px;
+  }
+
+  .academy-hero-subheading {
+    font-size: 16px;
+  }
+
+  .academy-hero-section .swiper-button-prev:after,
+  .academy-hero-section .swiper-button-next:after {
+    font-size: 24px !important;
+  }
+
+  .reg-btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 758px) {
+  .academy-hero-heading {
+    font-size: 24px;
+  }
+
+  .academy-hero-subheading {
+    font-size: 14px;
+  }
+
+  .academy-hero-section .swiper-button-prev:after,
+  .academy-hero-section .swiper-button-next:after {
+    font-size: 20px !important;
+  }
+
+  .reg-btn {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .academy-hero-text-box {
+    padding: 96px 16px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .academy-hero-heading {
+    font-size: 20px;
+  }
+
+  .academy-hero-subheading {
+    font-size: 12px;
+  }
+
+  .academy-hero-section .swiper-button-prev:after,
+  .academy-hero-section .swiper-button-next:after {
+    font-size: 18px !important;
+  }
+
+  .reg-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
 }

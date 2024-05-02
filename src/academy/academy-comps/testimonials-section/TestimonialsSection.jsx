@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
             <p>{t("testimonials2")}</p>
           </div>
         </div>
-        <div className="course-card testimonials-card">
+        <div className="course-card testimonials-card card-3">
           <div className="course-card-img-box testimonials-img-box">
             <img src="../img/student.png" alt="mentor" className="mentor" />
           </div>

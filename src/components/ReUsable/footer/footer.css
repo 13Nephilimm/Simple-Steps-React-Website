@@ -86,6 +86,12 @@ textarea::placeholder {
   font-size: 16px;
 }
 
+.contact-paragraph,
+.location-paragraph {
+  color: #fff;
+  display: block;
+}
+
 @media only screen and (max-width: 1250px) {
   footer {
     padding: 16px 96px;
