@@ -321,6 +321,15 @@ const resources = {
       tikoTime: "monday, wednesday, thursday",
       tikoPlace: "There are 8 places left on the course",
       weeks: "weeks",
+      nikaSandroDesc:
+        "The learning center is focused on creating a unique environment for students",
+      metaBlueprint: "An official test of the Meta Blueprint",
+      metaBlueprint2:
+        "Only at Simple Steps Academy, you can get an official META certificate",
+      student: "student",
+      studentText:
+        "I got my official Meta certification thanks to Simple Steps Academy",
+      metaCall: "Request a call to register for a Meta Blueprint exam",
     },
   },
   ge: {
@@ -631,6 +640,15 @@ const resources = {
       tikoTime: "ორშაბათი, ოთხშაბათი, ხუთშაბათი",
       tikoPlace: "კურსზე დარჩენილია 8 ადგილი",
       weeks: "კვირა",
+      nikaSandroDesc:
+        "სასწავლო ცენტრი ორიენტირებულია, რომ სტუდენტებს შეუქმნას უნიკალური გარემო",
+      metaBlueprint: "Meta Blueprint-ის ოფიციალური გამოცდა",
+      metaBlueprint2:
+        "მხოლოდ Simple Steps Academy-ში, გეძლევათ საშუალება აიღოთ META-ს ოფიციალური სერტიფიკატი",
+      student: "სტუდენტი",
+      studentText:
+        "ავიღე Meta-ს ოფიციალური სერტიფიკატი, რისთვისაც მადლობა Simple Steps Academy-ს",
+      metaCall: "მოითხოვე ზარი Meta Blueprint-ის გამოცდაზე რეგისტრაციისთვის",
     },
   },
 };

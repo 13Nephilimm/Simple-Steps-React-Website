@@ -21,6 +21,7 @@ import AcademyCourses from "./academy/academy-pages/academy-courses/AcademyCours
 import AcademyContact from "./academy/academy-pages/academy-contact/AcademyContact";
 import NikaSandro from "./academy/academy-pages/nika-sandro/NikaSandro";
 import GoogleAds from "./academy/academy-pages/google-ads/GoogleAds";
+import MetaSingle from "./academy/academy-pages/meta-single/MetaSingle";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Route path="/academy-contact" element={<AcademyContact />} />
         <Route path="/digital-marketing" element={<NikaSandro />} />
         <Route path="/google-ads" element={<GoogleAds />} />
+        <Route path="/meta" element={<MetaSingle />} />
       </Routes>
     </BrowserRouter>
   );

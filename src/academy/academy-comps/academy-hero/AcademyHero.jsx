@@ -26,18 +26,14 @@ const AcademyHero = () => {
         <SwiperSlide className="academy-swiper-slide">
           <div className="academy-hero-container">
             <img
-              src="../img/course-hero.png"
+              src="../img/nika-sandro-single.jpg"
               alt="academy-hero"
               className="academy-hero-img"
             />
             <div className="academy-hero-text-box">
-              <h1 className="academy-hero-heading">
-                {t("firstTime")} <br /> {t("inGeorgia")}
-              </h1>
-              <h2 className="academy-hero-subheading">
-                {t("metaCertification")}
-              </h2>
-              <Link>
+              <h1 className="academy-hero-heading">{t("nikaSandroName")}</h1>
+              <h2 className="academy-hero-subheading">{t("nikaSandroDesc")}</h2>
+              <Link to={"/digital-marketing"}>
                 <button className="contact-btn-submit reg-btn">
                   {t("registration")}
                 </button>
@@ -48,22 +44,31 @@ const AcademyHero = () => {
         <SwiperSlide className="academy-swiper-slide">
           <div className="academy-hero-container">
             <img
-              src="../img/course-hero.png"
+              src="../img/singlemeta.png"
               alt="academy-hero"
-              className="academy-hero-img"
+              className="academy-hero-img single-meta-img"
             />
             <div className="academy-hero-text-box">
-              <h1 className="academy-hero-heading">
-                {t("firstTime")} <br /> {t("inGeorgia")}
-              </h1>
-              <h2 className="academy-hero-subheading">
-                {t("metaCertification")}
-              </h2>
-              <Link>
+              <h1 className="academy-hero-heading">{t("metaBlueprint")}</h1>
+              <h2 className="academy-hero-subheading">{t("metaBlueprint2")}</h2>
+              <Link to={"/meta"}>
                 <button className="contact-btn-submit reg-btn">
                   {t("registration")}
                 </button>
               </Link>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="academy-swiper-slide">
+          <div className="academy-hero-container">
+            <img
+              src="../img/student.jpg"
+              alt="academy-hero"
+              className="academy-hero-img single-meta-img"
+            />
+            <div className="academy-hero-text-box">
+              <h1 className="academy-hero-heading">{t("student")}</h1>
+              <h2 className="academy-hero-subheading">{t("studentText")}</h2>
             </div>
           </div>
         </SwiperSlide>

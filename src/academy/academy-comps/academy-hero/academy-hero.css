@@ -11,6 +11,10 @@
   width: 50%;
 }
 
+.single-meta-img {
+  height: 900px;
+}
+
 .academy-hero-text-box {
   display: flex;
   flex-direction: column;
