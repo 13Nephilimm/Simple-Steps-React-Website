@@ -104,6 +104,7 @@
   justify-content: center;
   align-items: center;
   border: 1px solid #0000fe;
+  overflow: hidden;
 }
 
 .partners-planet-1 {
