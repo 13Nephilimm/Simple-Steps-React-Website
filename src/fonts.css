@@ -1,11 +1,15 @@
 @font-face {
   font-family: Loos;
-  src: url(../public/Loos-CondensedBold.ttf);
+  src: url(../public/Loos-CondensedBold.ttf),
+    url(../public/LoosCondensed-Bold.woff),
+    url(../public/LoosCondensed-Bold.woff2);
   font-weight: 700;
 }
 
 @font-face {
   font-family: Loos;
-  src: url(../public/Loos-CondensedBold.ttf);
+  src: url(../public/Loos-CondensedMedium.ttf),
+    url(../public/LoosCondensed-Medium.woff),
+    url(../public/LoosCondensed-Medium.woff2);
   font-weight: 500;
 }
