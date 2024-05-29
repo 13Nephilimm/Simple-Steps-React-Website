@@ -23,8 +23,8 @@ const SingleCourseTemp = ({
 
   return (
     <div>
-      <ComingSoon />
       <section className="single-course-hero">
+        <ComingSoon />
         <h1 className="single-course-main-heading">{courseName}</h1>
       </section>
       <section className="course-details-section">

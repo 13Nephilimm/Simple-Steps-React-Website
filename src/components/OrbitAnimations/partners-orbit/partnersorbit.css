@@ -47,6 +47,13 @@
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+.partners-planet-5,
+.partners-planet-9,
+.partners-planet-10,
+.partners-planet-13 {
+  background-color: #fff !important;
+}
+
 .partners-circle {
   display: flex;
   justify-content: center;

@@ -247,6 +247,10 @@
   .include-span {
     font-size: 20px;
   }
+
+  .benefits-section {
+    margin-bottom: -300px;
+  }
 }
 
 @media only screen and (max-width: 450px) {

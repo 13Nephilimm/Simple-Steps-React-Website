@@ -15,7 +15,6 @@ const WorkflowSection = () => {
             <video
               src="./img/introduction-video.mp4"
               type="video/mp4"
-              autoPlay
               loop
               muted
             ></video>
@@ -27,7 +26,6 @@ const WorkflowSection = () => {
             <video
               src="./img/strategy-video.mp4"
               type="video/mp4"
-              autoPlay
               loop
               muted
             ></video>
@@ -39,7 +37,6 @@ const WorkflowSection = () => {
             <video
               src="./img/workflow-video.mp4"
               type="video/mp4"
-              autoPlay
               loop
               muted
             ></video>
@@ -51,7 +48,6 @@ const WorkflowSection = () => {
             <video
               src="./img/result-video.mp4"
               type="video/mp4"
-              autoPlay
               loop
               muted
             ></video>

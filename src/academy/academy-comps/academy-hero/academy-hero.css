@@ -123,6 +123,20 @@
   .academy-hero-text-box {
     padding: 96px 16px;
   }
+
+  .academy-hero-img {
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  .academy-hero-container {
+    flex-direction: column;
+  }
+
+  .academy-hero-img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 430px) {

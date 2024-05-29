@@ -330,6 +330,8 @@ const resources = {
       studentText:
         "I got my official Meta certification thanks to Simple Steps Academy",
       metaCall: "Request a call to register for a Meta Blueprint exam",
+      aboutPartnersText:
+        "We can be proud to have more than 90 reliable media partners, cooperation with which determines the quality of our service.",
     },
   },
   ge: {
@@ -649,6 +651,8 @@ const resources = {
       studentText:
         "ავიღე Meta-ს ოფიციალური სერტიფიკატი, რისთვისაც მადლობა Simple Steps Academy-ს",
       metaCall: "მოითხოვე ზარი Meta Blueprint-ის გამოცდაზე რეგისტრაციისთვის",
+      aboutPartnersText:
+        "შეგვიძლია ვიამაყოთ, რომ 90-ზე მეტი საიმედო მედია პარტნიორი გვყავს, რომლებთან თანამშრომლობაც ჩვენი სერვისის ხარისხს განსაზღვრავს.",
     },
   },
 };

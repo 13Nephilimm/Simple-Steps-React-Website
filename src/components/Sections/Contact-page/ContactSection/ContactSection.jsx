@@ -14,7 +14,6 @@ const ContactSection = () => {
           <video
             src="./img/contact-shape.mp4"
             type="video/mp4"
-            autoPlay
             loop
             muted
           ></video>

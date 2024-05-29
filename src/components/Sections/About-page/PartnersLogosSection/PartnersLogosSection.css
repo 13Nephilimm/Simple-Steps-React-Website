@@ -15,14 +15,23 @@
   margin-top: 36px;
   max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  gap: 36px;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 32px;
   padding: 48px 16px;
 }
 
 .partners-logos-box {
   width: 100px;
   height: 100px;
+  border: dashed #0000fe 1px;
+  padding: 8px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.partners-logos-box:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .partners-logos-box.bg-white {
@@ -67,6 +76,7 @@
   .partners-logos-container {
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+    margin: 0;
   }
 
   .partners-logos-box {
@@ -75,7 +85,13 @@
   }
 
   .about-partners-heading {
-    font-size: 24px;
+    font-size: 18px;
+  }
+
+  .partners-logos-section p {
+    font-size: 10px;
+    text-align: center;
+    padding: 4px 16px;
   }
 }
 

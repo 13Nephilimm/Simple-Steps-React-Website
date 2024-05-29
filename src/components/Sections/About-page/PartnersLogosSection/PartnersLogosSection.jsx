@@ -8,6 +8,7 @@ const PartnersLogosSection = () => {
   return (
     <section className="partners-logos-section">
       <h2 className="about-partners-heading">{t("partnersHeading")}</h2>
+      <p>{t('aboutPartnersText')}</p>
       <div className="partners-logos-container">
         <div className="partners-logos-box">
           <img src="./img/partners-1.png" alt="partner-logo" />

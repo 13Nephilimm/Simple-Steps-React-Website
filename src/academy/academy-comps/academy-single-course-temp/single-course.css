@@ -92,3 +92,79 @@
 .single-course-main-heading {
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 1382px) {
+  .single-course-hero {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+
+  .helper-section .contact-form-section {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .helper-section {
+    padding: 0 64px;
+    margin-top: -48px;
+  }
+
+  .course-details-container {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .single-course-hero h1 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .helper-section {
+    padding: 0 24px;
+  }
+
+  .course-details-container .course-content-box {
+    width: 230px;
+    height: 300px;
+    font-size: 12px;
+  }
+
+  .theme {
+    font-size: 14px;
+  }
+
+  .syllabus-container {
+    padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .course-details-container {
+    grid-template-columns: 1fr;
+  }
+
+  .course-details-container .course-content-box {
+    width: 300px;
+    height: 350px;
+    font-size: 12px;
+  }
+
+  .theme {
+    font-size: 12px;
+  }
+
+  .subject {
+    font-size: 16px;
+  }
+
+  .single-course-hero h1 {
+    font-size: 20px;
+  }
+
+  .helper-section {
+    margin-top: -128px;
+  }
+}

@@ -17,7 +17,7 @@ const AcademyAbout = () => {
         <h1 className="academy-about-hero-heading">{t("aboutAcademy")}</h1>
       </section>
       <section className="academy-about-section-about">
-        <div className="about-container">
+        <div className="academy-about-container">
           <div className="academy-about-info-box">
             <h2>{t("howCreated")}</h2>
             <p>{t("howCreatedText")}</p>

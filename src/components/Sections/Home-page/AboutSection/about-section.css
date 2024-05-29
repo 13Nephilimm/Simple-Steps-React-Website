@@ -85,10 +85,15 @@
   }
 
   .about-container {
-    gap: 0;
+    gap: 0 !important;
+    padding: 0 !important;
   }
 
   .about-heading {
     font-size: 14px;
+  }
+
+  .about-section {
+    padding: 8px;
   }
 }

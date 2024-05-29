@@ -30,6 +30,7 @@
   border-radius: 16px;
   border: 1px solid #0000fe;
   text-transform: uppercase;
+  margin-top: 16px;
 }
 
 .team-contact-btn:hover {

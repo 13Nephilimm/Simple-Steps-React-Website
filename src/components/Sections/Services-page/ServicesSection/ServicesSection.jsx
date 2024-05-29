@@ -14,7 +14,6 @@ const ServicesSection = () => {
           <video
             src="./img/services-shape.mp4"
             type="video/mp4"
-            autoPlay
             loop
             muted
           ></video>
