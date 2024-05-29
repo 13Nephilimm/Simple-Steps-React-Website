@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useTranslation } from "react-i18next";
+import "./academy-footer.css";
 
 const AcademyFooter = () => {
   const form = useRef();
@@ -31,7 +32,7 @@ const AcademyFooter = () => {
   return (
     <footer>
       <div className="footer-upper-container">
-        <div className="location-box">
+        <div className="location-box academy-location-box">
           <h2 className="location-heading">{t("location")}</h2>
           <a
             href="https://maps.app.goo.gl/ALsS4bGRbpMCSiLw6"
@@ -74,7 +75,7 @@ const AcademyFooter = () => {
           </button>
         </form>
       </div>
-      <div className="footer-lower-container">
+      <div className="footer-lower-container academy-footer-lower-container">
         <div className="footer-logo-box">
           <img src="./img/footer-logo.png" alt="logo" />
         </div>
