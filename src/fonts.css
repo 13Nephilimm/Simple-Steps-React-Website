@@ -2,7 +2,8 @@
   font-family: Loos;
   src: url(../public/Loos-CondensedBold.ttf),
     url(../public/LoosCondensed-Bold.woff),
-    url(../public/LoosCondensed-Bold.woff2);
+    url(../public/LoosCondensed-Bold.woff2),
+    url(../public/LoosCondensed-Bold.eot);
   font-weight: 700;
 }
 
@@ -10,6 +11,7 @@
   font-family: Loos;
   src: url(../public/Loos-CondensedMedium.ttf),
     url(../public/LoosCondensed-Medium.woff),
-    url(../public/LoosCondensed-Medium.woff2);
+    url(../public/LoosCondensed-Medium.woff2),
+    url(../public/LoosCondensed-Medium.eot);
   font-weight: 500;
 }

@@ -10,7 +10,7 @@
 }
 
 .contact-span {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   text-align: center;
   color: #fff;
@@ -37,7 +37,7 @@
 .contact-company::placeholder,
 .contact-message::placeholder {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
 }
 

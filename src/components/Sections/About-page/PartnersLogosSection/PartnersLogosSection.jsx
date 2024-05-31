@@ -8,7 +8,7 @@ const PartnersLogosSection = () => {
   return (
     <section className="partners-logos-section">
       <h2 className="about-partners-heading">{t("partnersHeading")}</h2>
-      <p>{t('aboutPartnersText')}</p>
+      <p>{t("aboutPartnersText")}</p>
       <div className="partners-logos-container">
         <div className="partners-logos-box">
           <img src="./img/partners-1.png" alt="partner-logo" />
@@ -22,7 +22,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-4.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-5.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
@@ -34,7 +34,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-8.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-9.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
@@ -58,7 +58,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-16.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-17.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box bg-white">
@@ -79,16 +79,16 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-23.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-24.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-25.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
           <img src="./img/partners-26.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-27.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
@@ -148,7 +148,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-46.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-47.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
@@ -202,7 +202,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-64.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-65.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
@@ -214,13 +214,13 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-68.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-69.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
           <img src="./img/partners-70.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-71.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
@@ -250,13 +250,13 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-80.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-81.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
           <img src="./img/partners-82.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-83.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
@@ -280,7 +280,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-90.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-91.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">

@@ -9,6 +9,17 @@
   font-family: Loos, "IBM Plex Sans Devanagari", sans-serif !important;
 }
 
+html,
+nav,
+body,
+section,
+h1,
+h2,
+p,
+span {
+  font-family: Loos, "IBM Plex Sans Devanagari", sans-serif !important;
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
