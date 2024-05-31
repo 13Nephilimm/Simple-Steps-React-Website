@@ -97,7 +97,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box bg-white">
           <img src="./img/partners-29.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-30.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box">
@@ -172,7 +172,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box">
           <img src="./img/partners-54.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-55.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box bg-white">
@@ -232,7 +232,7 @@ const PartnersLogosSection = () => {
         <div className="partners-logos-box bg-white">
           <img src="./img/partners-74.png" alt="partner-logo" />
         </div>
-        <div className="partners-logos-box">
+        <div className="partners-logos-box bg-white">
           <img src="./img/partners-75.png" alt="partner-logo" />
         </div>
         <div className="partners-logos-box bg-white">

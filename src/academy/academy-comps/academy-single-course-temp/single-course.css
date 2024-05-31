@@ -143,13 +143,12 @@
 
 @media only screen and (max-width: 480px) {
   .course-details-container {
-    grid-template-columns: 1fr;
+    row-gap: 16px;
   }
 
   .course-details-container .course-content-box {
-    width: 300px;
-    height: 350px;
-    font-size: 12px;
+    width: 190px;
+    font-size: 10px;
   }
 
   .theme {
