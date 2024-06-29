@@ -13,6 +13,11 @@ const AcademyCoursesSection = () => {
         <p className="meta-exam-text">{t("metaExamText")}</p>
         <img src="../img/meta-icon.png" alt="meta-icon" />
       </div>
+      <Link to={"/meta"}>
+        <button className="contact-btn-submit all-courses-btn">
+          {t("registration")}
+        </button>
+      </Link>
       <h2 className="academy-courses-heading">{t("academyCoursesHeading")}</h2>
       <div className="academy-courses-container-page">
         <div className="white-gradient-circle"></div>
@@ -42,7 +47,7 @@ const AcademyCoursesSection = () => {
               <img src="../img/tiko.jpg" alt="mentor" className="mentor" />
             </div>
             <div className="course-card-text-box">
-              <h3>Google Ads</h3>
+              <h3>{t("googleAds")}</h3>
               <p>{t("mentor")}</p>
               <span>{t("tiko")}</span>
 

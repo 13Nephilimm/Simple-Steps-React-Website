@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { I18nextProvider } from "react-i18next";
 import i18n from "../../../i18next";
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
   const [toggleIcon, setToggleIcon] = useState("nav-toggler");
   const [solid, setSolid] = useState(false);
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const toggleLanguage = () => {
     const currentLanguage = i18n.language;
@@ -29,61 +28,94 @@ const Header = () => {
   window.addEventListener("scroll", changeBackground);
 
   const navToggle = () => {
-    active === "nav-menu"
-      ? setActive("nav-menu nav-active")
-      : setActive("nav-menu");
+    setActive((prev) =>
+      prev === "nav-menu" ? "nav-menu nav-active" : "nav-menu"
+    );
 
-    // Toggle Icon
-    toggleIcon === "nav-toggler"
-      ? setToggleIcon("nav-toggler toggle")
-      : setToggleIcon("nav-toggler");
+    setToggleIcon((prev) =>
+      prev === "nav-toggler" ? "nav-toggler toggle" : "nav-toggler"
+    );
   };
 
   return (
     <nav className={solid ? "nav solid" : "nav"}>
-      <Link to={"/"}>
-        <img src="./img/nav-logo.png" alt="logo" className="nav-brand" />{" "}
-      </Link>
+      <NavLink to="/" exact>
+        <img src="./img/nav-logo.png" alt="logo" className="nav-brand" />
+      </NavLink>
       <ul className={active}>
         <li className="nav-item">
-          <Link to={"/"} className="nav-link">
+          <NavLink
+            to="/"
+            exact
+            className="nav-link"
+            activeClassName="link-active"
+          >
             {t("home")}
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/about-us"} className="nav-link">
+          <NavLink
+            to="/about-us"
+            className="nav-link"
+            activeClassName="link-active"
+          >
             {t("about")}
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/services"} className="nav-link">
+          <NavLink
+            to="/services"
+            className="nav-link"
+            activeClassName="link-active"
+          >
             {t("services")}
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/blog"} className="nav-link">
+          <NavLink
+            to="/blog"
+            className="nav-link"
+            activeClassName="link-active"
+          >
             {t("blog")}
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/academy"} className="nav-link" target="_blank">
+          <NavLink
+            to="/academy"
+            className="nav-link"
+            activeClassName="link-active"
+            target="_blank"
+          >
             {t("academy")}
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/career"} className="nav-link">
+          <NavLink
+            to="/career"
+            className="nav-link"
+            activeClassName="link-active"
+          >
             {t("career")}
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/contact"} className="nav-link">
+          <NavLink
+            to="/contact"
+            className="nav-link"
+            activeClassName="link-active"
+          >
             {t("contact")}
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
-          <Link to={"/portfolio"} className="nav-link">
+          <NavLink
+            to="/portfolio"
+            className="nav-link"
+            activeClassName="link-active"
+          >
             {t("portfolio")}
-          </Link>
+          </NavLink>
         </li>
         <li className="nav-item">
           <button onClick={toggleLanguage} className="translate-btn">

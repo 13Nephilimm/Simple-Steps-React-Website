@@ -141,7 +141,7 @@ const GoogleAds = () => {
       <AcademyHeader />
       <SingleCourseTemp
         syllabus={syllabus}
-        courseName={"Google Ads"}
+        courseName={t("googleAds")}
         lecturer1={t("tiko")}
         duration1={`3 ${t("weeks")}`}
         duration2={`10 ${t("lecture")}`}
